@@ -1,0 +1,308 @@
+{
+  "cv1.txt": {
+    "nom": "Marie Dupont",
+    "email": "marie.dupont@email.fr",
+    "telephone": "06 12 34 56 78",
+    "competences": [
+      "Python",
+      "R",
+      "SQL",
+      "Scala",
+      "Scikit-learn",
+      "TensorFlow",
+      "PyTorch",
+      "XGBoost",
+      "Apache Spark",
+      "Hadoop",
+      "Hive",
+      "Matplotlib",
+      "Seaborn",
+      "Plotly",
+      "Power BI",
+      "Tableau",
+      "PostgreSQL",
+      "MongoDB",
+      "Redis",
+      "Git",
+      "Docker",
+      "Kubernetes",
+      "MLflow",
+      "Airflow",
+      "AWS (S3",
+      "SageMaker",
+      "EC2)",
+      "GCP (BigQuery)"
+    ],
+    "experience_professionnelle": [
+      {
+        "periode": "Janvier 2022 - Present",
+        "poste": "Data Scientist Senior",
+        "entreprise": "Societe DataTech Solutions, Paris",
+        "description": [
+          "Developpement de modeles de machine learning pour la prediction de churn",
+          "Mise en place de pipelines de donnees avec Apache Spark",
+          "Analyse exploratoire et visualisation de donnees clients",
+          "Encadrement d'une equipe de 3 data analysts"
+        ]
+      },
+      {
+        "periode": "Juin 2021 - Decembre 2021",
+        "poste": "Data Scientist Junior",
+        "entreprise": "Startup InnovaIA, Lyon",
+        "description": [
+          "Creation de modeles NLP pour l'analyse de sentiments",
+          "Automatisation de rapports avec Python et Jupyter",
+          "Collaboration avec l'equipe produit pour integrer les modeles en production"
+        ]
+      },
+      {
+        "periode": "Mars 2020 - Aout 2020",
+        "poste": "Stage Data Analyst",
+        "entreprise": "Banque Nationale de France, Paris",
+        "description": [
+          "Analyse statistique des donnees transactionnelles",
+          "Construction de tableaux de bord avec Power BI",
+          "Redaction de rapports techniques"
+        ]
+      }
+    ],
+    "formation": [
+      {
+        "periode": "2019 - 2021",
+        "diplome": "Master Data Science et Intelligence Artificielle",
+        "etablissement": "Universite Paris-Saclay, Orsay"
+      },
+      {
+        "periode": "2016 - 2019",
+        "diplome": "Licence Mathematiques et Informatique",
+        "etablissement": "Universite Pierre et Marie Curie, Paris"
+      },
+      {
+        "periode": "2016",
+        "diplome": "Baccalaureat Scientifique, mention Tres Bien",
+        "etablissement": "Lycee Henri IV, Paris"
+      }
+    ],
+    "langues": [
+      {
+        "langue": "Francais",
+        "niveau": "Langue maternelle"
+      },
+      {
+        "langue": "Anglais",
+        "niveau": "Courant (TOEIC 945)"
+      },
+      {
+        "langue": "Espagnol",
+        "niveau": "Intermediaire (B1)"
+      }
+    ]
+  },
+  "cv2.txt": {
+    "nom": "Thomas Martin",
+    "email": "thomas.martin92@gmail.com",
+    "telephone": "+33 7 98 76 54 32",
+    "competences": [
+      "Java",
+      "Python",
+      "Node.js",
+      "Go",
+      "Spring Boot",
+      "Express.js",
+      "React",
+      "TypeScript",
+      "Vue.js",
+      "HTML5",
+      "CSS3",
+      "Tailwind",
+      "Docker",
+      "Kubernetes",
+      "Terraform",
+      "GitHub Actions",
+      "Jenkins",
+      "AWS (EC2",
+      "Lambda",
+      "RDS",
+      "S3)",
+      "Azure (App Service",
+      "AKS)",
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB",
+      "Redis",
+      "Elasticsearch",
+      "Agile Scrum",
+      "TDD",
+      "DDD",
+      "Clean Architecture",
+      "Git",
+      "Jira",
+      "Confluence",
+      "Figma",
+      "Postman"
+    ],
+    "experience_professionnelle": [
+      {
+        "periode": "Septembre 2021 - Present",
+        "poste": "Ingenieur Logiciel Senior",
+        "entreprise": "CloudFactory SAS, Lyon",
+        "description": [
+          "Conception et developpement d'une plateforme SaaS (200k utilisateurs)",
+          "Migration d'une architecture monolithique vers des microservices",
+          "Mise en place de CI/CD avec GitHub Actions et ArgoCD",
+          "Mentorat de 4 developpeurs juniors",
+          "Revue de code et definition des standards techniques"
+        ]
+      },
+      {
+        "periode": "Mars 2019 - Aout 2021",
+        "poste": "Developpeur Full Stack",
+        "entreprise": "WebAgency Pro, Paris",
+        "description": [
+          "Developpement frontend React et backend Node.js",
+          "Integration d'APIs REST et GraphQL",
+          "Optimisation des performances (reduction de 40% du temps de chargement)",
+          "Participation aux sprints Scrum et retrospectives"
+        ]
+      },
+      {
+        "periode": "Septembre 2017 - Fevrier 2019",
+        "poste": "Developpeur Backend Junior",
+        "entreprise": "StartupConnect, Bordeaux",
+        "description": [
+          "Developpement d'APIs RESTful en Java Spring Boot",
+          "Ecriture de tests unitaires et d'integration",
+          "Gestion de bases de donnees relationnelles",
+          "Deploiement sur AWS EC2"
+        ]
+      }
+    ],
+    "formation": [
+      {
+        "periode": "2015 - 2017",
+        "diplome": "Master Genie Logiciel",
+        "etablissement": "INSA Lyon"
+      },
+      {
+        "periode": "2012 - 2015",
+        "diplome": "Licence Informatique",
+        "etablissement": "Universite Claude Bernard Lyon 1"
+      }
+    ],
+    "langues": [
+      {
+        "langue": "Francais",
+        "niveau": "Langue maternelle"
+      },
+      {
+        "langue": "Anglais",
+        "niveau": "Bilingue (3 ans a Londres)"
+      },
+      {
+        "langue": "Allemand",
+        "niveau": "Notions (A2)"
+      }
+    ]
+  },
+  "cv3.txt": {
+    "nom": "Sarah Johnson",
+    "email": "sarah.johnson@techmail.com",
+    "telephone": "+1 (415) 555-0187",
+    "competences": [
+      "Python",
+      "C++",
+      "Java",
+      "Rust",
+      "SQL",
+      "PyTorch",
+      "TensorFlow",
+      "JAX",
+      "Scikit-learn",
+      "Hugging Face",
+      "MLflow",
+      "Kubeflow",
+      "Weights & Biases",
+      "DVC",
+      "Seldon",
+      "AWS (SageMaker",
+      "ECS",
+      "Lambda)",
+      "GCP (Vertex AI",
+      "BigQuery)",
+      "Apache Spark",
+      "Kafka",
+      "Airflow",
+      "dbt",
+      "Docker",
+      "Kubernetes",
+      "Terraform",
+      "Helm",
+      "NLP",
+      "Computer Vision",
+      "Recommendation Systems",
+      "Time Series"
+    ],
+    "experience_professionnelle": [
+      {
+        "periode": "July 2021 - Present",
+        "poste": "Senior Machine Learning Engineer",
+        "entreprise": "TechVision AI, San Francisco, CA",
+        "description": [
+          "Designed and deployed real-time recommendation system serving 10M+ users",
+          "Built end-to-end NLP pipeline for document classification (95% accuracy)",
+          "Led migration from TensorFlow 1.x to PyTorch, reducing training time by 60%",
+          "Implemented A/B testing framework for ML model evaluation",
+          "Mentored 3 junior ML engineers"
+        ]
+      },
+      {
+        "periode": "January 2020 - June 2021",
+        "poste": "Machine Learning Engineer",
+        "entreprise": "DataDriven Inc., Seattle, WA",
+        "description": [
+          "Developed computer vision models for defect detection in manufacturing",
+          "Created automated feature engineering pipeline using Apache Beam",
+          "Deployed models on Kubernetes with custom serving infrastructure",
+          "Reduced model inference latency from 200ms to 45ms"
+        ]
+      },
+      {
+        "periode": "August 2018 - December 2019",
+        "poste": "Junior Data Scientist",
+        "entreprise": "AnalyticsCorp, Boston, MA",
+        "description": [
+          "Built predictive models for customer lifetime value estimation",
+          "Performed statistical analysis and hypothesis testing",
+          "Created interactive dashboards using Streamlit and Plotly",
+          "Collaborated with product team to define ML use cases"
+        ]
+      }
+    ],
+    "formation": [
+      {
+        "periode": "2016 - 2018",
+        "diplome": "Master of Science in Computer Science (ML Specialization)",
+        "etablissement": "Stanford University, Stanford, CA"
+      },
+      {
+        "periode": "2012 - 2016",
+        "diplome": "Bachelor of Science in Mathematics",
+        "etablissement": "MIT, Cambridge, MA"
+      }
+    ],
+    "langues": [
+      {
+        "langue": "English",
+        "niveau": "Native"
+      },
+      {
+        "langue": "French",
+        "niveau": "Intermediate (B2)"
+      },
+      {
+        "langue": "Mandarin",
+        "niveau": "Basic (A2)"
+      }
+    ]
+  }
+}

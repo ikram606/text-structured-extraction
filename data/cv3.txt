@@ -1,0 +1,91 @@
+==============================
+RESUME
+==============================
+
+Name: Sarah Johnson
+Email: sarah.johnson@techmail.com
+Phone: +1 (415) 555-0187
+Location: San Francisco, CA 94102
+GitHub: github.com/sarahjohnson-ml
+LinkedIn: linkedin.com/in/sarah-johnson-ml
+
+------------------------------
+PROFESSIONAL SUMMARY
+------------------------------
+
+Machine Learning Engineer with 5+ years of experience building and deploying
+production ML systems at scale. Specialized in NLP and computer vision.
+Passionate about bridging the gap between research and production.
+
+------------------------------
+WORK EXPERIENCE
+------------------------------
+
+July 2021 - Present : Senior Machine Learning Engineer
+    Company: TechVision AI, San Francisco, CA
+    - Designed and deployed real-time recommendation system serving 10M+ users
+    - Built end-to-end NLP pipeline for document classification (95% accuracy)
+    - Led migration from TensorFlow 1.x to PyTorch, reducing training time by 60%
+    - Implemented A/B testing framework for ML model evaluation
+    - Mentored 3 junior ML engineers
+
+January 2020 - June 2021 : Machine Learning Engineer
+    Company: DataDriven Inc., Seattle, WA
+    - Developed computer vision models for defect detection in manufacturing
+    - Created automated feature engineering pipeline using Apache Beam
+    - Deployed models on Kubernetes with custom serving infrastructure
+    - Reduced model inference latency from 200ms to 45ms
+
+August 2018 - December 2019 : Junior Data Scientist
+    Company: AnalyticsCorp, Boston, MA
+    - Built predictive models for customer lifetime value estimation
+    - Performed statistical analysis and hypothesis testing
+    - Created interactive dashboards using Streamlit and Plotly
+    - Collaborated with product team to define ML use cases
+
+------------------------------
+EDUCATION
+------------------------------
+
+2016 - 2018 : Master of Science in Computer Science (ML Specialization)
+               Stanford University, Stanford, CA
+               GPA: 3.9/4.0
+
+2012 - 2016 : Bachelor of Science in Mathematics
+               MIT, Cambridge, MA
+               GPA: 3.8/4.0
+
+------------------------------
+SKILLS
+------------------------------
+
+Programming Languages: Python, C++, Java, Rust, SQL
+ML Frameworks: PyTorch, TensorFlow, JAX, Scikit-learn, Hugging Face
+MLOps: MLflow, Kubeflow, Weights & Biases, DVC, Seldon
+Cloud Platforms: AWS (SageMaker, ECS, Lambda), GCP (Vertex AI, BigQuery)
+Data Engineering: Apache Spark, Kafka, Airflow, dbt
+Infrastructure: Docker, Kubernetes, Terraform, Helm
+Specializations: NLP, Computer Vision, Recommendation Systems, Time Series
+
+------------------------------
+LANGUAGES
+------------------------------
+
+English: Native
+French: Intermediate (B2)
+Mandarin: Basic (A2)
+
+------------------------------
+PUBLICATIONS
+------------------------------
+
+- "Efficient Transformer Architectures for Production NLP" - EMNLP 2022
+- "Scalable Feature Stores for Real-time ML" - MLSys 2021
+
+------------------------------
+CERTIFICATIONS
+------------------------------
+
+- Google Professional Machine Learning Engineer (2022)
+- AWS Machine Learning Specialty (2021)
+- Deep Learning Specialization - Coursera (2019)

@@ -1,0 +1,72 @@
+==============================
+CURRICULUM VITAE
+==============================
+
+Nom : Marie Dupont
+Email : marie.dupont@email.fr
+Telephone : 06 12 34 56 78
+Adresse : 15 rue de la Paix, 75001 Paris
+
+------------------------------
+FORMATION
+------------------------------
+
+2019 - 2021 : Master Data Science et Intelligence Artificielle
+               Universite Paris-Saclay, Orsay
+
+2016 - 2019 : Licence Mathematiques et Informatique
+               Universite Pierre et Marie Curie, Paris
+
+2016 : Baccalaureat Scientifique, mention Tres Bien
+        Lycee Henri IV, Paris
+
+------------------------------
+EXPERIENCE PROFESSIONNELLE
+------------------------------
+
+Janvier 2022 - Present : Data Scientist Senior
+                          Societe DataTech Solutions, Paris
+                          - Developpement de modeles de machine learning pour la prediction de churn
+                          - Mise en place de pipelines de donnees avec Apache Spark
+                          - Analyse exploratoire et visualisation de donnees clients
+                          - Encadrement d'une equipe de 3 data analysts
+
+Juin 2021 - Decembre 2021 : Data Scientist Junior
+                             Startup InnovaIA, Lyon
+                             - Creation de modeles NLP pour l'analyse de sentiments
+                             - Automatisation de rapports avec Python et Jupyter
+                             - Collaboration avec l'equipe produit pour integrer les modeles en production
+
+Mars 2020 - Aout 2020 : Stage Data Analyst
+                          Banque Nationale de France, Paris
+                          - Analyse statistique des donnees transactionnelles
+                          - Construction de tableaux de bord avec Power BI
+                          - Redaction de rapports techniques
+
+------------------------------
+COMPETENCES
+------------------------------
+
+Langages de programmation : Python, R, SQL, Scala
+Machine Learning : Scikit-learn, TensorFlow, PyTorch, XGBoost
+Big Data : Apache Spark, Hadoop, Hive
+Visualisation : Matplotlib, Seaborn, Plotly, Power BI, Tableau
+Bases de donnees : PostgreSQL, MongoDB, Redis
+Outils : Git, Docker, Kubernetes, MLflow, Airflow
+Cloud : AWS (S3, SageMaker, EC2), GCP (BigQuery)
+
+------------------------------
+LANGUES
+------------------------------
+
+Francais : Langue maternelle
+Anglais : Courant (TOEIC 945)
+Espagnol : Intermediaire (B1)
+
+------------------------------
+CENTRES D'INTERET
+------------------------------
+
+- Participation a des competitions Kaggle (Top 5% sur 3 competitions)
+- Contribution open source (scikit-learn, pandas)
+- Randonnee et photographie

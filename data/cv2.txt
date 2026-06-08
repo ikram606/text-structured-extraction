@@ -1,0 +1,85 @@
+================================
+        THOMAS MARTIN
+    Ingenieur Logiciel Senior
+================================
+
+Contact :
+  Email    : thomas.martin92@gmail.com
+  Tel      : +33 7 98 76 54 32
+  LinkedIn : linkedin.com/in/thomas-martin
+  Adresse  : 42 avenue Victor Hugo, 69003 Lyon
+
+--------------------------------
+PROFIL
+--------------------------------
+
+Ingenieur logiciel passionne avec 6 ans d'experience dans le developpement
+d'applications web et mobiles. Expert en architectures microservices et
+methodologies agiles. Recherche un poste de Tech Lead.
+
+--------------------------------
+EXPERIENCE PROFESSIONNELLE
+--------------------------------
+
+Septembre 2021 - Present : Ingenieur Logiciel Senior
+    Entreprise : CloudFactory SAS, Lyon
+    Responsabilites :
+    - Conception et developpement d'une plateforme SaaS (200k utilisateurs)
+    - Migration d'une architecture monolithique vers des microservices
+    - Mise en place de CI/CD avec GitHub Actions et ArgoCD
+    - Mentorat de 4 developpeurs juniors
+    - Revue de code et definition des standards techniques
+
+Mars 2019 - Aout 2021 : Developpeur Full Stack
+    Entreprise : WebAgency Pro, Paris
+    Responsabilites :
+    - Developpement frontend React et backend Node.js
+    - Integration d'APIs REST et GraphQL
+    - Optimisation des performances (reduction de 40% du temps de chargement)
+    - Participation aux sprints Scrum et retrospectives
+
+Septembre 2017 - Fevrier 2019 : Developpeur Backend Junior
+    Entreprise : StartupConnect, Bordeaux
+    Responsabilites :
+    - Developpement d'APIs RESTful en Java Spring Boot
+    - Ecriture de tests unitaires et d'integration
+    - Gestion de bases de donnees relationnelles
+    - Deploiement sur AWS EC2
+
+--------------------------------
+FORMATION
+--------------------------------
+
+2015 - 2017 : Master Genie Logiciel
+               INSA Lyon
+
+2012 - 2015 : Licence Informatique
+               Universite Claude Bernard Lyon 1
+
+--------------------------------
+COMPETENCES TECHNIQUES
+--------------------------------
+
+Backend : Java, Python, Node.js, Go, Spring Boot, Express.js
+Frontend : React, TypeScript, Vue.js, HTML5, CSS3, Tailwind
+DevOps : Docker, Kubernetes, Terraform, GitHub Actions, Jenkins
+Cloud : AWS (EC2, Lambda, RDS, S3), Azure (App Service, AKS)
+Bases de donnees : PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch
+Methodologies : Agile Scrum, TDD, DDD, Clean Architecture
+Outils : Git, Jira, Confluence, Figma, Postman
+
+--------------------------------
+LANGUES
+--------------------------------
+
+Francais : Langue maternelle
+Anglais : Bilingue (3 ans a Londres)
+Allemand : Notions (A2)
+
+--------------------------------
+CERTIFICATIONS
+--------------------------------
+
+- AWS Certified Solutions Architect Associate (2022)
+- Kubernetes Certified Administrator (CKA) (2023)
+- Scrum Master Certified (PSM I) (2020)

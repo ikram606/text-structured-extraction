@@ -214,7 +214,60 @@ def calculer_score_global(resultats_evaluation):
         }
 
 
-def afficher_tableau_recapitulatif(resultats_evaluation, score_global):
+def calculer_moyennes_par_champ(resultats_evaluation):
+    """
+    Calcule les moyennes de precision, rappel et F1 par champ (across all CVs).
+    """
+    champs = ["nom", "email", "telephone", "competences",
+              "experience_professionnelle", "formation", "langues"]
+
+    moyennes = {}
+    for champ in champs:
+        total_precision = 0.0
+        total_rappel = 0.0
+        total_f1 = 0.0
+        nb = 0
+
+        for cv_name, scores in resultats_evaluation.items():
+            if champ in scores:
+                total_precision += scores[champ]["precision"]
+                total_rappel += scores[champ]["rappel"]
+                total_f1 += scores[champ]["f1"]
+                nb += 1
+
+        if nb > 0:
+            moyennes[champ] = {
+                "precision_moyenne": total_precision / nb,
+                "rappel_moyen": total_rappel / nb,
+                "f1_moyen": total_f1 / nb
+            }
+        else:
+            moyennes[champ] = {
+                "precision_moyenne": 0.0,
+                "rappel_moyen": 0.0,
+                "f1_moyen": 0.0
+            }
+
+    return moyennes
+
+
+def identifier_cvs_problematiques(resultats_evaluation, seuil=0.8):
+    """
+    Identifie les CVs ayant au moins un champ avec un F1 inferieur au seuil.
+    """
+    problematiques = []
+    for cv_name in sorted(resultats_evaluation.keys()):
+        scores = resultats_evaluation[cv_name]
+        champs_faibles = []
+        for champ, metriques in scores.items():
+            if metriques["f1"] < seuil:
+                champs_faibles.append((champ, metriques["f1"]))
+        if champs_faibles:
+            problematiques.append((cv_name, champs_faibles))
+    return problematiques
+
+
+def afficher_tableau_recapitulatif(resultats_evaluation, score_global, moyennes_par_champ):
     """
     Affiche un tableau recapitulatif des scores par CV et par champ.
     """
@@ -238,6 +291,16 @@ def afficher_tableau_recapitulatif(resultats_evaluation, score_global):
                 m = scores[champ]
                 print(f"{champ:<30s} {m['precision']:>10.2f} {m['rappel']:>10.2f} {m['f1']:>10.2f}")
 
+    # Moyennes par champ
+    print("\n" + "=" * 90)
+    print("MOYENNES PAR CHAMP (across all CVs)")
+    print("=" * 90)
+    print(f"{'Champ':<30s} {'Precision':>10s} {'Rappel':>10s} {'F1-Score':>10s}")
+    print("-" * 62)
+    for champ in champs:
+        m = moyennes_par_champ[champ]
+        print(f"{champ:<30s} {m['precision_moyenne']:>10.4f} {m['rappel_moyen']:>10.4f} {m['f1_moyen']:>10.4f}")
+
     # Score global
     print("\n" + "=" * 90)
     print("SCORE GLOBAL")
@@ -247,11 +310,29 @@ def afficher_tableau_recapitulatif(resultats_evaluation, score_global):
     print(f"  F1-Score moyen    : {score_global['f1_moyen']:.4f}")
     print("=" * 90)
 
+    # CVs problematiques
+    problematiques = identifier_cvs_problematiques(resultats_evaluation)
+    if problematiques:
+        print("\n" + "=" * 90)
+        print("CVs AVEC EXTRACTION FAIBLE (F1 < 0.8 sur au moins un champ)")
+        print("=" * 90)
+        for cv_name, champs_faibles in problematiques:
+            print(f"\n  {cv_name}:")
+            for champ, f1 in champs_faibles:
+                print(f"    - {champ}: F1 = {f1:.4f}")
+    else:
+        print("\nTous les CVs ont un F1 >= 0.8 sur tous les champs.")
 
-def generer_rapport(resultats_evaluation, score_global):
+
+def generer_rapport(resultats_evaluation, score_global, moyennes_par_champ):
     """
     Genere le rapport d'evaluation au format JSON.
     """
+    problematiques = identifier_cvs_problematiques(resultats_evaluation)
+    cvs_problematiques = {}
+    for cv_name, champs_faibles in problematiques:
+        cvs_problematiques[cv_name] = {champ: f1 for champ, f1 in champs_faibles}
+
     rapport = {
         "description": "Rapport d'evaluation de la qualite de l'extraction de donnees structurees depuis des CV",
         "methodologie": {
@@ -260,7 +341,9 @@ def generer_rapport(resultats_evaluation, score_global):
             "listes_dictionnaires": "Correspondance sur les champs cles (periode, poste, entreprise pour experience; periode, diplome, etablissement pour formation)"
         },
         "resultats_par_cv": resultats_evaluation,
-        "score_global": score_global
+        "moyennes_par_champ": moyennes_par_champ,
+        "score_global": score_global,
+        "cvs_problematiques": cvs_problematiques
     }
     return rapport
 
@@ -299,11 +382,14 @@ def main():
     # Calculer le score global
     score_global = calculer_score_global(resultats_evaluation)
 
+    # Calculer les moyennes par champ
+    moyennes_par_champ = calculer_moyennes_par_champ(resultats_evaluation)
+
     # Afficher le tableau recapitulatif
-    afficher_tableau_recapitulatif(resultats_evaluation, score_global)
+    afficher_tableau_recapitulatif(resultats_evaluation, score_global, moyennes_par_champ)
 
     # Generer et sauvegarder le rapport
-    rapport = generer_rapport(resultats_evaluation, score_global)
+    rapport = generer_rapport(resultats_evaluation, score_global, moyennes_par_champ)
 
     with open(chemin_rapport, 'w', encoding='utf-8') as f:
         json.dump(rapport, f, ensure_ascii=False, indent=2)

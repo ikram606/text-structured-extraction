@@ -28,9 +28,7 @@
       "Kubernetes",
       "MLflow",
       "Airflow",
-      "AWS (S3",
-      "SageMaker",
-      "EC2)",
+      "AWS (S3, SageMaker, EC2)",
       "GCP (BigQuery)"
     ],
     "experience_professionnelle": [
@@ -966,12 +964,8 @@
       "Terraform",
       "GitHub Actions",
       "Jenkins",
-      "AWS (EC2",
-      "Lambda",
-      "RDS",
-      "S3)",
-      "Azure (App Service",
-      "AKS)",
+      "AWS (EC2, Lambda, RDS, S3)",
+      "Azure (App Service, AKS)",
       "PostgreSQL",
       "MySQL",
       "MongoDB",
@@ -1167,11 +1161,8 @@
       "Weights & Biases",
       "DVC",
       "Seldon",
-      "AWS (SageMaker",
-      "ECS",
-      "Lambda)",
-      "GCP (Vertex AI",
-      "BigQuery)",
+      "AWS (SageMaker, ECS, Lambda)",
+      "GCP (Vertex AI, BigQuery)",
       "Apache Spark",
       "Kafka",
       "Airflow",
@@ -1345,7 +1336,26 @@
     "nom": "Emily Watson",
     "email": "emily.watson@healthcare.co.uk",
     "telephone": "+44 7911 234 567",
-    "competences": [],
+    "competences": [
+      "Triage",
+      "IV Therapy",
+      "Wound Care",
+      "Catheterization",
+      "ECG",
+      "Advanced Life Support",
+      "Trauma Assessment",
+      "Resuscitation",
+      "EPR Systems",
+      "NHS Spine",
+      "EMIS Web",
+      "Microsoft Office",
+      "Patient Communication",
+      "Team Leadership",
+      "Time Management",
+      "Emergency Medicine",
+      "Acute Care",
+      "Infection Control"
+    ],
     "experience_professionnelle": [
       {
         "periode": "March 2020 - Present",
@@ -1517,7 +1527,38 @@
       "Packaging",
       "Motion Design"
     ],
-    "experience_professionnelle": [],
+    "experience_professionnelle": [
+      {
+        "periode": "January 2021 - Present",
+        "poste": "Creative Director",
+        "entreprise": "Spark Design Agency, Los Angeles, CA",
+        "description": [
+          "Lead creative vision for agency serving Fortune 500 clients",
+          "Manage team of 12 designers and illustrators",
+          "Won 3 Webby Awards and 2 D&AD Pencils in 2023"
+        ]
+      },
+      {
+        "periode": "April 2018 - December 2020",
+        "poste": "Senior Graphic Designer",
+        "entreprise": "BrandWorks Studio, San Francisco, CA",
+        "description": [
+          "Designed brand identities for 30+ startups",
+          "Created packaging design for consumer products",
+          "Developed comprehensive brand guidelines"
+        ]
+      },
+      {
+        "periode": "August 2015 - March 2018",
+        "poste": "Graphic Designer",
+        "entreprise": "Digital Arts Collective, Portland, OR",
+        "description": [
+          "Produced print and digital marketing materials",
+          "Designed user interfaces for mobile applications",
+          "Collaborated with copywriters and photographers"
+        ]
+      }
+    ],
     "formation": [
       {
         "periode": "2011 - 2015",

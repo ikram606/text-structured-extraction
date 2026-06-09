@@ -23,9 +23,9 @@
         "f1": 1.0
       },
       "competences": {
-        "precision": 0.8928571428571429,
-        "rappel": 0.9615384615384616,
-        "f1": 0.9259259259259259
+        "precision": 1.0,
+        "rappel": 1.0,
+        "f1": 1.0
       },
       "experience_professionnelle": {
         "precision": 1.0,
@@ -430,9 +430,9 @@
         "f1": 1.0
       },
       "competences": {
-        "precision": 0.8378378378378378,
-        "rappel": 0.9393939393939394,
-        "f1": 0.8857142857142858
+        "precision": 1.0,
+        "rappel": 1.0,
+        "f1": 1.0
       },
       "experience_professionnelle": {
         "precision": 1.0,
@@ -504,9 +504,9 @@
         "f1": 1.0
       },
       "competences": {
-        "precision": 0.84375,
-        "rappel": 0.9310344827586207,
-        "f1": 0.8852459016393444
+        "precision": 1.0,
+        "rappel": 1.0,
+        "f1": 1.0
       },
       "experience_professionnelle": {
         "precision": 1.0,
@@ -578,9 +578,9 @@
         "f1": 1.0
       },
       "competences": {
-        "precision": 0.0,
-        "rappel": 0.0,
-        "f1": 0.0
+        "precision": 1.0,
+        "rappel": 1.0,
+        "f1": 1.0
       },
       "experience_professionnelle": {
         "precision": 1.0,
@@ -657,9 +657,9 @@
         "f1": 1.0
       },
       "experience_professionnelle": {
-        "precision": 0.0,
-        "rappel": 0.0,
-        "f1": 0.0
+        "precision": 1.0,
+        "rappel": 1.0,
+        "f1": 1.0
       },
       "formation": {
         "precision": 1.0,
@@ -747,9 +747,47 @@
       }
     }
   },
+  "moyennes_par_champ": {
+    "nom": {
+      "precision_moyenne": 1.0,
+      "rappel_moyen": 1.0,
+      "f1_moyen": 1.0
+    },
+    "email": {
+      "precision_moyenne": 1.0,
+      "rappel_moyen": 1.0,
+      "f1_moyen": 1.0
+    },
+    "telephone": {
+      "precision_moyenne": 1.0,
+      "rappel_moyen": 1.0,
+      "f1_moyen": 1.0
+    },
+    "competences": {
+      "precision_moyenne": 1.0,
+      "rappel_moyen": 1.0,
+      "f1_moyen": 1.0
+    },
+    "experience_professionnelle": {
+      "precision_moyenne": 1.0,
+      "rappel_moyen": 1.0,
+      "f1_moyen": 1.0
+    },
+    "formation": {
+      "precision_moyenne": 1.0,
+      "rappel_moyen": 1.0,
+      "f1_moyen": 1.0
+    },
+    "langues": {
+      "precision_moyenne": 1.0,
+      "rappel_moyen": 1.0,
+      "f1_moyen": 1.0
+    }
+  },
   "score_global": {
-    "precision_moyenne": 0.9826746070049641,
-    "rappel_moyen": 0.9845140491692214,
-    "f1_moyen": 0.9835491865234255
-  }
+    "precision_moyenne": 1.0,
+    "rappel_moyen": 1.0,
+    "f1_moyen": 1.0
+  },
+  "cvs_problematiques": {}
 }

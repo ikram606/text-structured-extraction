@@ -4,63 +4,105 @@
 
 Ce projet a pour objectif d'extraire automatiquement des informations structurees
 a partir de CV (curriculum vitae) au format texte brut. Les informations extraites
-sont organisees sous forme de donnees JSON exploitables.
+sont organisees sous forme de donnees JSON et CSV exploitables.
 
-## Objectif du projet
+## Objectifs du projet (NLP)
 
-- Lire des fichiers texte bruts contenant des CV (francais et anglais)
-- Identifier et extraire les informations cles : nom, email, telephone,
-  competences, experience professionnelle, formation et langues
-- Structurer ces informations en format JSON
-- Demontrer l'utilisation d'expressions regulieres (regex) pour le traitement
-  de texte en Python
+Ce projet repond a 4 objectifs pedagogiques en Traitement Automatique du Langage (NLP) :
 
-## Installation
+1. **Extraction d'information** : identifier et extraire des entites nommees (noms, emails, telephones) et des structures complexes (experiences, formations) depuis du texte non-structure.
+2. **Expressions regulieres** : maitriser les regex Python pour le pattern matching sur des formats de texte varies (francais/anglais, formats heterogenes).
+3. **Evaluation quantitative** : mesurer la qualite de l'extraction avec des metriques standard (precision, rappel, F1-score) sur un jeu de donnees annote.
+4. **Robustesse** : gerer la diversite des formats de CV reels (ordres de sections variables, separateurs differents, langues multiples).
 
-```bash
-# Cloner le depot
-git clone <url-du-depot>
-cd text-structured-extraction
+## Dataset
 
-# (Optionnel) Creer un environnement virtuel
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-# venv\Scripts\activate   # Windows
+Le projet utilise un corpus de **20 CVs fictifs** dans le dossier `data/` :
 
-# Installer les dependances (optionnel, pour les fonctionnalites avancees)
-pip install -r requirements.txt
-```
+- Mix de CVs en **francais** et en **anglais**
+- Professions variees : data science, marketing, sante, finance, ingenierie, design, enseignement, droit, cuisine, etc.
+- Formats heterogenes : separateurs (`===`, `---`), labels de sections varies, ordres de sections differents
+- Niveaux d'experience : junior, mid-level, senior, executif
 
 ## Execution
 
-Le script principal fonctionne uniquement avec la bibliotheque standard Python
-(pas de dependances externes requises) :
+Le projet fonctionne uniquement avec la **bibliotheque standard Python** (aucune dependance externe) :
 
 ```bash
-python main.py
+# Extraction des donnees depuis les 20 CVs
+python3 main.py
+
+# Evaluation de la qualite (precision, rappel, F1-score)
+python3 evaluation/evaluate.py
 ```
 
-Les resultats sont sauvegardes dans `results/output.json`.
+### Sorties
+
+- `results/output.json` : donnees structurees extraites pour chaque CV
+- `results/output.csv` : tableau resume (fichier, nom, email, telephone, nombre de competences/experiences/formations/langues)
+- `evaluation/rapport_evaluation.json` : rapport detaille avec scores par CV, par champ, et globaux
+
+## Methodologie d'evaluation
+
+L'evaluation compare les resultats extraits avec une verite terrain annotee manuellement (`evaluation/ground_truth.json`).
+
+### Metriques
+
+- **Precision** : proportion d'elements extraits qui sont corrects
+- **Rappel** : proportion d'elements attendus qui ont ete extraits
+- **F1-score** : moyenne harmonique de la precision et du rappel
+
+### Niveaux d'evaluation
+
+1. **Par champ et par CV** : F1-score pour chaque champ (nom, email, competences, etc.) de chaque CV
+2. **Moyenne par champ** : F1-score moyen pour chaque type de champ across tous les CVs
+3. **Score global** : F1-score moyen sur tous les champs et tous les CVs
+4. **Detection des problemes** : identification des CVs ayant un F1 < 0.8 sur au moins un champ
+
+### Types de comparaison
+
+- Champs simples (nom, email, telephone) : correspondance exacte
+- Listes (competences) : intersection des ensembles normalises
+- Listes structurees (experience, formation, langues) : correspondance sur champs cles
 
 ## Structure du projet
 
 ```
 text-structured-extraction/
-├── README.md                    # Ce fichier
+├── README.md                           # Ce fichier
+├── requirements.txt                    # Dependances (stdlib uniquement)
+├── main.py                             # Point d'entree - extraction et export
 ├── data/
-│   ├── cv1.txt                  # CV fictif en francais (data scientist)
-│   ├── cv2.txt                  # CV fictif en francais (ingenieur logiciel)
-│   └── cv3.txt                  # CV fictif en anglais (ML engineer)
-├── notebooks/
-│   └── demo_extraction.ipynb    # Notebook de demonstration
+│   ├── cv1.txt ... cv20.txt            # 20 CVs fictifs (francais/anglais)
 ├── src/
 │   ├── __init__.py
-│   └── extractor.py            # Module principal d'extraction
-├── main.py                      # Point d'entree du programme
-├── requirements.txt             # Dependances Python
-└── results/
-    └── .gitkeep                 # Dossier pour les resultats
+│   └── extractor.py                    # Module principal d'extraction (regex)
+├── evaluation/
+│   ├── evaluate.py                     # Script d'evaluation F1-score
+│   ├── ground_truth.json               # Verite terrain annotee
+│   └── rapport_evaluation.json         # Rapport genere (scores detailles)
+├── results/
+│   ├── output.json                     # Resultats d'extraction (genere)
+│   └── output.csv                      # Resume tabulaire (genere)
+├── notebooks/
+│   └── demo_extraction.ipynb           # Notebook de demonstration
+└── presentation/
+    └── presentation.md                 # Support de presentation
 ```
+
+## Approche technique
+
+Le projet utilise les **expressions regulieres** (`re`) de Python pour :
+
+1. **Detection de sections** : identifier les blocs (formation, experience, etc.)
+   grace aux en-tetes entre lignes de separateurs (`===`, `---`)
+2. **Extraction de patterns** : capturer les emails, numeros de telephone et
+   noms avec des motifs regex specifiques
+3. **Parsing structure** : analyser le contenu de chaque section pour extraire
+   les informations detaillees (dates, postes, entreprises, competences)
+4. **Gestion multi-format** : supporter les variantes de nommage de sections
+   en francais et anglais, les differents formats de dates, et les styles
+   de listes varies
 
 ## Exemple de resultat
 
@@ -69,13 +111,12 @@ text-structured-extraction/
   "nom": "Marie Dupont",
   "email": "marie.dupont@email.fr",
   "telephone": "06 12 34 56 78",
-  "competences": ["Python", "R", "SQL", "Scikit-learn", "TensorFlow"],
+  "competences": ["Python", "R", "SQL", "Scikit-learn", "TensorFlow", "AWS (S3, SageMaker, EC2)"],
   "experience_professionnelle": [
     {
       "periode": "Janvier 2022 - Present",
       "poste": "Data Scientist Senior",
-      "entreprise": "DataTech Solutions, Paris",
-      "description": ["Developpement de modeles de machine learning..."]
+      "entreprise": "DataTech Solutions, Paris"
     }
   ],
   "formation": [
@@ -91,30 +132,6 @@ text-structured-extraction/
   ]
 }
 ```
-
-## Approche technique
-
-Le projet utilise les **expressions regulieres** (`re`) de Python pour :
-
-1. **Detection de sections** : identifier les blocs (formation, experience, etc.)
-   grace aux en-tetes et separateurs
-2. **Extraction de patterns** : capturer les emails, numeros de telephone et
-   noms avec des motifs regex specifiques
-3. **Parsing structure** : analyser le contenu de chaque section pour extraire
-   les informations detaillees
-
-## Ameliorations possibles
-
-- **spaCy NER** : utiliser la reconnaissance d'entites nommees pour detecter
-  automatiquement les noms, lieux et organisations
-- **Transformers (Hugging Face)** : utiliser des modeles pre-entraines comme
-  CamemBERT pour une meilleure comprehension du texte francais
-- **Parsing PDF** : ajouter la lecture de CV au format PDF avec PyPDF2 ou pdfplumber
-- **Interface web** : creer une interface avec Flask ou Streamlit pour
-  telecharger et analyser des CV
-- **Base de donnees** : stocker les resultats dans une base SQLite ou PostgreSQL
-- **Evaluation** : ajouter des metriques de precision/rappel sur un jeu de
-  donnees annote
 
 ## Auteur
 

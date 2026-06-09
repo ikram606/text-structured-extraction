@@ -2,12 +2,13 @@
 Script principal pour l'extraction de donnees structurees depuis des CV bruts.
 
 Ce script lit tous les fichiers CV dans le dossier data/, extrait les
-informations structurees et sauvegarde les resultats en JSON.
+informations structurees et sauvegarde les resultats en JSON et CSV.
 
 Usage :
     python main.py
 """
 
+import csv
 import json
 import os
 from pathlib import Path
@@ -107,8 +108,30 @@ def main():
     with open(chemin_sortie, "w", encoding="utf-8") as f:
         json.dump(resultats, f, ensure_ascii=False, indent=2)
 
+    # Sauvegarder le resume en CSV
+    chemin_csv = dossier_resultats / "output.csv"
+    with open(chemin_csv, "w", encoding="utf-8", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow([
+            "fichier", "nom", "email", "telephone",
+            "nb_competences", "nb_experiences", "nb_formations", "nb_langues"
+        ])
+        for nom_fichier in sorted(resultats.keys()):
+            donnees = resultats[nom_fichier]
+            writer.writerow([
+                nom_fichier,
+                donnees.get("nom", ""),
+                donnees.get("email", ""),
+                donnees.get("telephone", ""),
+                len(donnees.get("competences", [])),
+                len(donnees.get("experience_professionnelle", [])),
+                len(donnees.get("formation", [])),
+                len(donnees.get("langues", [])),
+            ])
+
     print(f"\n{'='*60}")
     print(f"  Resultats sauvegardes dans : {chemin_sortie}")
+    print(f"  Resume CSV sauvegarde dans : {chemin_csv}")
     print(f"{'='*60}")
 
 

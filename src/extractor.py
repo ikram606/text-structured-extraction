@@ -22,7 +22,7 @@ def smart_split_commas(text: str) -> List[str]:
             depth += 1
             current.append(char)
         elif char == ')':
-            depth -= 1
+            depth = max(0, depth - 1)
             current.append(char)
         elif char == ',' and depth == 0:
             items.append(''.join(current).strip())
@@ -148,7 +148,9 @@ def extraire_competences(texte: str) -> List[str]:
 # Month names for date patterns (French and English)
 MONTHS_FR = r'(?:Janvier|Fevrier|Mars|Avril|Mai|Juin|Juillet|Aout|Septembre|Octobre|Novembre|Decembre)'
 MONTHS_EN = r'(?:January|February|March|April|May|June|July|August|September|October|November|December)'
-MONTHS_ALL = r'(?:Janvier|Fevrier|Mars|Avril|Mai|Juin|Juillet|Aout|Septembre|Octobre|Novembre|Decembre|January|February|March|April|May|June|July|August|September|October|November|December)'
+MONTHS_FR_ABBREV = r'(?:Janv|Fev|Avr|Juil|Sept|Nov|Dec)'
+MONTHS_EN_ABBREV = r'(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)'
+MONTHS_ALL = r'(?:Janvier|Fevrier|Mars|Avril|Mai|Juin|Juillet|Aout|Septembre|Octobre|Novembre|Decembre|January|February|March|April|May|June|July|August|September|October|November|December|Janv|Fev|Avr|Juil|Sept|Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Oct|Nov|Dec)'
 
 
 def extraire_experience(texte: str) -> List[Dict[str, str]]:

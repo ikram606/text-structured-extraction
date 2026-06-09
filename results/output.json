@@ -248,72 +248,12 @@
     ]
   },
   "cv12.txt": {
-    "nom": "Jean-Pierre Lefebvre",
+    "nom": "Chef Cuisinier",
     "email": "jp.lefebvre@gastronomie.fr",
     "telephone": "06 78 34 12 90",
-    "competences": [
-      "Gastronomie francaise",
-      "Cuisine moleculaire",
-      "Patisserie fine",
-      "Management de brigade",
-      "Gestion des couts",
-      "Food cost",
-      "Sous-vide",
-      "Fermentation",
-      "Fumage",
-      "Maturation",
-      "HACCP",
-      "Normes sanitaires",
-      "Tracabilite",
-      "Logiciel Koust",
-      "EBP Restauration",
-      "Excel"
-    ],
-    "experience_professionnelle": [
-      {
-        "periode": "Mars 2018 - Present",
-        "poste": "Chef Executif",
-        "entreprise": "Restaurant Le Jardin des Saveurs, Lyon",
-        "description": [
-          "Direction d'une brigade de 15 cuisiniers",
-          "Creation de menus saisonniers gastronomiques",
-          "Obtention d'une etoile Michelin en 2020",
-          "Gestion des approvisionnements et relations producteurs"
-        ]
-      },
-      {
-        "periode": "Juin 2014 - Fevrier 2018",
-        "poste": "Chef de Partie Senior",
-        "entreprise": "Hotel Le Bristol Paris, Paris",
-        "description": [
-          "Responsable du poste poissons et crustaces",
-          "Formation des commis et apprentis",
-          "Participation aux banquets et evenements VIP"
-        ]
-      },
-      {
-        "periode": "Septembre 2010 - Mai 2014",
-        "poste": "Commis de Cuisine",
-        "entreprise": "Restaurant Paul Bocuse, Collonges-au-Mont-d'Or",
-        "description": [
-          "Preparation des mises en place quotidiennes",
-          "Assistance aux differents postes de la brigade",
-          "Respect des normes HACCP et hygiene"
-        ]
-      }
-    ],
-    "formation": [
-      {
-        "periode": "2008 - 2010",
-        "diplome": "BTS Hotellerie-Restauration option Art Culinaire",
-        "etablissement": "Lycee Hotelier Tsuji, Lyon"
-      },
-      {
-        "periode": "2006 - 2008",
-        "diplome": "CAP Cuisine",
-        "etablissement": "CFA de la Cuisine, Lyon"
-      }
-    ],
+    "competences": [],
+    "experience_professionnelle": [],
+    "formation": [],
     "langues": [
       {
         "langue": "Francais",
@@ -550,7 +490,7 @@
         ]
       },
       {
-        "periode": "September 2019 - April 2021",
+        "periode": "Sep 2019 - Apr 2021",
         "poste": "Senior UX Designer",
         "entreprise": "Airbnb, San Francisco, CA",
         "description": [
@@ -560,7 +500,7 @@
         ]
       },
       {
-        "periode": "March 2017 - August 2019",
+        "periode": "Mar 2017 - Aug 2019",
         "poste": "UX Designer",
         "entreprise": "Dropbox, San Francisco, CA",
         "description": [
@@ -692,37 +632,7 @@
     "nom": "David Kumar",
     "email": "david.kumar@devops-pro.io",
     "telephone": "+1 (206) 555-0198",
-    "competences": [
-      "AWS",
-      "GCP",
-      "Azure",
-      "DigitalOcean",
-      "Docker",
-      "Kubernetes",
-      "ECS",
-      "Helm",
-      "Istio",
-      "Terraform",
-      "Pulumi",
-      "CloudFormation",
-      "Ansible",
-      "Chef",
-      "Jenkins",
-      "GitHub Actions",
-      "GitLab CI",
-      "ArgoCD",
-      "Flux",
-      "Prometheus",
-      "Grafana",
-      "Datadog",
-      "PagerDuty",
-      "ELK Stack",
-      "Python",
-      "Go",
-      "Bash",
-      "Ruby",
-      "TypeScript"
-    ],
+    "competences": [],
     "experience_professionnelle": [
       {
         "periode": "April 2021 - Present",

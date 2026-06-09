@@ -50,15 +50,16 @@ EDUCATION
                University of Washington, Seattle, WA
 
 ------------------------------
-SKILLS
+TECHNICAL SKILLS
 ------------------------------
 
-Cloud Platforms : AWS, GCP, Azure, DigitalOcean
-Containers : Docker, Kubernetes, ECS, Helm, Istio
-IaC : Terraform, Pulumi, CloudFormation, Ansible, Chef
-CI/CD : Jenkins, GitHub Actions, GitLab CI, ArgoCD, Flux
-Monitoring : Prometheus, Grafana, Datadog, PagerDuty, ELK Stack
-Programming : Python, Go, Bash, Ruby, TypeScript
+Proficient in AWS, GCP, Azure, and DigitalOcean cloud platforms.
+Experienced with Docker, Kubernetes, ECS, Helm, and Istio for
+container orchestration. Skilled in Terraform, Pulumi, CloudFormation,
+Ansible, and Chef for infrastructure as code. Uses Jenkins, GitHub
+Actions, GitLab CI, ArgoCD, and Flux for CI/CD pipelines. Expert in
+Prometheus, Grafana, Datadog, PagerDuty, and ELK Stack for monitoring.
+Programs in Python, Go, Bash, Ruby, and TypeScript.
 
 ------------------------------
 LANGUAGES

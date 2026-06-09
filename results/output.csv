@@ -2,12 +2,12 @@ fichier,nom,email,telephone,nb_competences,nb_experiences,nb_formations,nb_langu
 cv1.txt,Marie Dupont,marie.dupont@email.fr,06 12 34 56 78,26,3,3,3
 cv10.txt,Nathalie Girard,nathalie.girard@rh-solutions.fr,06 23 91 45 67,18,3,2,3
 cv11.txt,Kevin Park,kevin.park.data@gmail.com,+1 (646) 555-0312,16,2,1,3
-cv12.txt,Jean-Pierre Lefebvre,jp.lefebvre@gastronomie.fr,06 78 34 12 90,16,3,2,4
+cv12.txt,Chef Cuisinier,jp.lefebvre@gastronomie.fr,06 78 34 12 90,0,0,0,4
 cv13.txt,Michael Thompson,m.thompson.pmp@outlook.com,+1 (202) 555-0178,23,3,2,3
 cv14.txt,Sophie Marchand,sophie.marchand@pharmacie.fr,06 91 23 45 78,19,3,2,3
 cv15.txt,Amanda Foster,amanda.foster@uxcraft.io,+1 (415) 555-0256,22,3,2,3
 cv16.txt,Francois Dubois,f.dubois@cabinet-juridique.fr,01 44 56 78 90,19,3,3,3
-cv17.txt,David Kumar,david.kumar@devops-pro.io,+1 (206) 555-0198,29,3,1,3
+cv17.txt,David Kumar,david.kumar@devops-pro.io,+1 (206) 555-0198,0,3,1,3
 cv18.txt,Laurent Vasseur,laurent.vasseur@archi-studio.fr,06 54 32 10 87,24,3,2,4
 cv19.txt,Jessica Nguyen,jessica.nguyen@marketmail.com,+1 (312) 555-0167,17,2,1,3
 cv2.txt,Thomas Martin,thomas.martin92@gmail.com,+33 7 98 76 54 32,33,3,2,3

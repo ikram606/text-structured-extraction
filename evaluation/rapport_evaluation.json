@@ -119,9 +119,9 @@
     },
     "cv12.txt": {
       "nom": {
-        "precision": 1.0,
-        "rappel": 1.0,
-        "f1": 1.0
+        "precision": 0.0,
+        "rappel": 0.0,
+        "f1": 0.0
       },
       "email": {
         "precision": 1.0,
@@ -134,19 +134,19 @@
         "f1": 1.0
       },
       "competences": {
-        "precision": 1.0,
-        "rappel": 1.0,
-        "f1": 1.0
+        "precision": 0.0,
+        "rappel": 0.0,
+        "f1": 0.0
       },
       "experience_professionnelle": {
-        "precision": 1.0,
-        "rappel": 1.0,
-        "f1": 1.0
+        "precision": 0.0,
+        "rappel": 0.0,
+        "f1": 0.0
       },
       "formation": {
-        "precision": 1.0,
-        "rappel": 1.0,
-        "f1": 1.0
+        "precision": 0.0,
+        "rappel": 0.0,
+        "f1": 0.0
       },
       "langues": {
         "precision": 1.0,
@@ -319,9 +319,9 @@
         "f1": 1.0
       },
       "competences": {
-        "precision": 1.0,
-        "rappel": 1.0,
-        "f1": 1.0
+        "precision": 0.0,
+        "rappel": 0.0,
+        "f1": 0.0
       },
       "experience_professionnelle": {
         "precision": 1.0,
@@ -749,9 +749,9 @@
   },
   "moyennes_par_champ": {
     "nom": {
-      "precision_moyenne": 1.0,
-      "rappel_moyen": 1.0,
-      "f1_moyen": 1.0
+      "precision_moyenne": 0.95,
+      "rappel_moyen": 0.95,
+      "f1_moyen": 0.95
     },
     "email": {
       "precision_moyenne": 1.0,
@@ -764,19 +764,19 @@
       "f1_moyen": 1.0
     },
     "competences": {
-      "precision_moyenne": 1.0,
-      "rappel_moyen": 1.0,
-      "f1_moyen": 1.0
+      "precision_moyenne": 0.9,
+      "rappel_moyen": 0.9,
+      "f1_moyen": 0.9
     },
     "experience_professionnelle": {
-      "precision_moyenne": 1.0,
-      "rappel_moyen": 1.0,
-      "f1_moyen": 1.0
+      "precision_moyenne": 0.95,
+      "rappel_moyen": 0.95,
+      "f1_moyen": 0.95
     },
     "formation": {
-      "precision_moyenne": 1.0,
-      "rappel_moyen": 1.0,
-      "f1_moyen": 1.0
+      "precision_moyenne": 0.95,
+      "rappel_moyen": 0.95,
+      "f1_moyen": 0.95
     },
     "langues": {
       "precision_moyenne": 1.0,
@@ -785,9 +785,19 @@
     }
   },
   "score_global": {
-    "precision_moyenne": 1.0,
-    "rappel_moyen": 1.0,
-    "f1_moyen": 1.0
+    "precision_moyenne": 0.9642857142857143,
+    "rappel_moyen": 0.9642857142857143,
+    "f1_moyen": 0.9642857142857143
   },
-  "cvs_problematiques": {}
+  "cvs_problematiques": {
+    "cv12.txt": {
+      "nom": 0.0,
+      "competences": 0.0,
+      "experience_professionnelle": 0.0,
+      "formation": 0.0
+    },
+    "cv17.txt": {
+      "competences": 0.0
+    }
+  }
 }

@@ -1,0 +1,126 @@
+{
+  "description": "Rapport d'evaluation de la qualite de l'extraction de donnees structurees depuis des CV",
+  "methodologie": {
+    "champs_simples": "Correspondance exacte (precision/rappel = 1 ou 0)",
+    "listes": "Precision = elements corrects / elements extraits, Rappel = elements corrects / elements attendus",
+    "listes_dictionnaires": "Correspondance sur les champs cles (periode, poste, entreprise pour experience; periode, diplome, etablissement pour formation)"
+  },
+  "resultats_par_cv": {
+    "cv1.txt": {
+      "nom": {
+        "precision": 1.0,
+        "rappel": 1.0,
+        "f1": 1.0
+      },
+      "email": {
+        "precision": 1.0,
+        "rappel": 1.0,
+        "f1": 1.0
+      },
+      "telephone": {
+        "precision": 1.0,
+        "rappel": 1.0,
+        "f1": 1.0
+      },
+      "competences": {
+        "precision": 0.8928571428571429,
+        "rappel": 0.9615384615384616,
+        "f1": 0.9259259259259259
+      },
+      "experience_professionnelle": {
+        "precision": 1.0,
+        "rappel": 1.0,
+        "f1": 1.0
+      },
+      "formation": {
+        "precision": 1.0,
+        "rappel": 1.0,
+        "f1": 1.0
+      },
+      "langues": {
+        "precision": 1.0,
+        "rappel": 1.0,
+        "f1": 1.0
+      }
+    },
+    "cv2.txt": {
+      "nom": {
+        "precision": 1.0,
+        "rappel": 1.0,
+        "f1": 1.0
+      },
+      "email": {
+        "precision": 1.0,
+        "rappel": 1.0,
+        "f1": 1.0
+      },
+      "telephone": {
+        "precision": 1.0,
+        "rappel": 1.0,
+        "f1": 1.0
+      },
+      "competences": {
+        "precision": 0.8378378378378378,
+        "rappel": 0.9393939393939394,
+        "f1": 0.8857142857142858
+      },
+      "experience_professionnelle": {
+        "precision": 1.0,
+        "rappel": 1.0,
+        "f1": 1.0
+      },
+      "formation": {
+        "precision": 1.0,
+        "rappel": 1.0,
+        "f1": 1.0
+      },
+      "langues": {
+        "precision": 1.0,
+        "rappel": 1.0,
+        "f1": 1.0
+      }
+    },
+    "cv3.txt": {
+      "nom": {
+        "precision": 1.0,
+        "rappel": 1.0,
+        "f1": 1.0
+      },
+      "email": {
+        "precision": 1.0,
+        "rappel": 1.0,
+        "f1": 1.0
+      },
+      "telephone": {
+        "precision": 1.0,
+        "rappel": 1.0,
+        "f1": 1.0
+      },
+      "competences": {
+        "precision": 0.84375,
+        "rappel": 0.9310344827586207,
+        "f1": 0.8852459016393444
+      },
+      "experience_professionnelle": {
+        "precision": 1.0,
+        "rappel": 1.0,
+        "f1": 1.0
+      },
+      "formation": {
+        "precision": 1.0,
+        "rappel": 1.0,
+        "f1": 1.0
+      },
+      "langues": {
+        "precision": 1.0,
+        "rappel": 1.0,
+        "f1": 1.0
+      }
+    }
+  },
+  "score_global": {
+    "precision_moyenne": 0.9797354752711895,
+    "rappel_moyen": 0.9919984230329058,
+    "f1_moyen": 0.9855660053942644
+  }
+}

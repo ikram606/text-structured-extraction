@@ -1,0 +1,78 @@
+==============================
+RESUME
+==============================
+
+Name: Michael Thompson
+Email: m.thompson.pmp@outlook.com
+Phone: +1 (202) 555-0178
+Location: Washington, DC 20001
+LinkedIn: linkedin.com/in/michael-thompson-pmp
+
+------------------------------
+PROFESSIONAL SUMMARY
+------------------------------
+
+PMP-certified Project Manager with 12+ years of experience leading complex
+IT transformation projects for government and enterprise clients. Track record
+of delivering multi-million dollar programs on time and within budget.
+
+------------------------------
+WORK EXPERIENCE
+------------------------------
+
+August 2019 - Present : Senior Program Manager
+    Company: Deloitte Consulting, Washington, DC
+    - Led $25M digital transformation program for federal agency
+    - Managed portfolio of 5 concurrent projects with 40+ team members
+    - Achieved 98% on-time delivery rate across all managed projects
+    - Implemented Agile/SAFe methodology across the program
+
+February 2016 - July 2019 : Project Manager
+    Company: Booz Allen Hamilton, McLean, VA
+    - Managed IT modernization project for Department of Defense
+    - Led cross-functional teams of 20 engineers and analysts
+    - Delivered cloud migration project 2 months ahead of schedule
+    - Developed risk management frameworks adopted company-wide
+
+January 2012 - January 2016 : Associate Project Manager
+    Company: IBM Federal, Bethesda, MD
+    - Coordinated software development sprints for 3 Agile teams
+    - Managed project budgets ranging from $2M to $8M
+    - Created and maintained project documentation and status reports
+
+------------------------------
+EDUCATION
+------------------------------
+
+2010 - 2012 : Master of Business Administration
+               Georgetown University, Washington, DC
+
+2006 - 2010 : Bachelor of Science in Information Systems
+               Virginia Tech, Blacksburg, VA
+
+------------------------------
+SKILLS
+------------------------------
+
+Methodologies : PMP, Agile, Scrum, SAFe, ITIL, Waterfall, Kanban
+Tools : MS Project, Jira, Confluence, ServiceNow, Smartsheet
+Cloud Platforms : AWS, Azure, Google Cloud Platform
+Technical : SQL, Python basics, Visio, Power BI, SharePoint
+Governance : Risk Management, Change Management, Earned Value Management
+
+------------------------------
+LANGUAGES
+------------------------------
+
+English : Native
+Spanish : Conversational (B2)
+Arabic : Basic (A2)
+
+------------------------------
+CERTIFICATIONS
+------------------------------
+
+- PMP - Project Management Professional (PMI)
+- SAFe 5.0 Program Consultant (SPC)
+- ITIL v4 Foundation
+- AWS Cloud Practitioner

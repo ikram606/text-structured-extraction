@@ -241,5 +241,1200 @@
         "niveau": "Basic (A2)"
       }
     ]
+  },
+  "cv4.txt": {
+    "nom": "Claire Beaumont",
+    "email": "claire.beaumont@marketing-pro.fr",
+    "telephone": "06 45 78 12 33",
+    "competences": [
+      "SEO",
+      "SEA",
+      "Google Ads",
+      "Facebook Ads",
+      "LinkedIn Ads",
+      "Google Analytics",
+      "Mixpanel",
+      "Hotjar",
+      "Data Studio",
+      "Salesforce",
+      "HubSpot",
+      "Mailchimp",
+      "Sendinblue",
+      "Trello",
+      "Asana",
+      "Monday.com",
+      "MS Project",
+      "Canva",
+      "Adobe Creative Suite",
+      "Figma",
+      "Community Management",
+      "Social Listening",
+      "Hootsuite"
+    ],
+    "experience_professionnelle": [
+      {
+        "periode": "Mars 2019 - Present",
+        "poste": "Responsable Marketing Digital",
+        "entreprise": "Groupe MediaVision, Paris"
+      },
+      {
+        "periode": "Septembre 2016 - Fevrier 2019",
+        "poste": "Chef de Projet Marketing",
+        "entreprise": "Agence CreaPub, Lyon"
+      },
+      {
+        "periode": "Janvier 2014 - Aout 2016",
+        "poste": "Chargee de Communication",
+        "entreprise": "Startup FoodTech SAS, Bordeaux"
+      }
+    ],
+    "formation": [
+      {
+        "periode": "2012 - 2014",
+        "diplome": "Master Marketing et Communication Digitale",
+        "etablissement": "ESSEC Business School, Cergy"
+      },
+      {
+        "periode": "2009 - 2012",
+        "diplome": "Licence Economie et Gestion",
+        "etablissement": "Universite Paris-Dauphine, Paris"
+      }
+    ],
+    "langues": [
+      {
+        "langue": "Francais",
+        "niveau": "Langue maternelle"
+      },
+      {
+        "langue": "Anglais",
+        "niveau": "Courant (C1)"
+      },
+      {
+        "langue": "Espagnol",
+        "niveau": "Intermediaire (B2)"
+      },
+      {
+        "langue": "Italien",
+        "niveau": "Notions (A2)"
+      }
+    ]
+  },
+  "cv5.txt": {
+    "nom": "Emily Watson",
+    "email": "emily.watson@healthcare.co.uk",
+    "telephone": "+44 7911 234 567",
+    "competences": [
+      "Triage",
+      "IV Therapy",
+      "Wound Care",
+      "Catheterization",
+      "ECG",
+      "Advanced Life Support",
+      "Trauma Assessment",
+      "Resuscitation",
+      "EPR Systems",
+      "NHS Spine",
+      "EMIS Web",
+      "Microsoft Office",
+      "Patient Communication",
+      "Team Leadership",
+      "Time Management",
+      "Emergency Medicine",
+      "Acute Care",
+      "Infection Control"
+    ],
+    "experience_professionnelle": [
+      {
+        "periode": "March 2020 - Present",
+        "poste": "Senior Staff Nurse",
+        "entreprise": "Manchester Royal Infirmary, Manchester"
+      },
+      {
+        "periode": "September 2017 - February 2020",
+        "poste": "Staff Nurse",
+        "entreprise": "Leeds General Hospital, Leeds"
+      },
+      {
+        "periode": "June 2016 - August 2017",
+        "poste": "Junior Nurse",
+        "entreprise": "Bradford Teaching Hospitals, Bradford"
+      }
+    ],
+    "formation": [
+      {
+        "periode": "2013 - 2016",
+        "diplome": "Bachelor of Science in Nursing (BSN)",
+        "etablissement": "University of Leeds, Leeds"
+      },
+      {
+        "periode": "2011 - 2013",
+        "diplome": "BTEC Level 3 Health and Social Care",
+        "etablissement": "Manchester College, Manchester"
+      }
+    ],
+    "langues": [
+      {
+        "langue": "English",
+        "niveau": "Native"
+      },
+      {
+        "langue": "Welsh",
+        "niveau": "Conversational (B1)"
+      },
+      {
+        "langue": "French",
+        "niveau": "Basic (A2)"
+      }
+    ]
+  },
+  "cv6.txt": {
+    "nom": "Alexandre Renaud",
+    "email": "a.renaud@finance-conseil.fr",
+    "telephone": "+33 6 87 45 23 19",
+    "competences": [
+      "Valorisation DCF",
+      "Multiples",
+      "LBO",
+      "M&A",
+      "Bloomberg Terminal",
+      "Reuters Eikon",
+      "FactSet",
+      "Capital IQ",
+      "Excel avance",
+      "VBA",
+      "Python",
+      "R",
+      "IFRS",
+      "US GAAP",
+      "Normes francaises",
+      "Power BI",
+      "Tableau",
+      "LaTeX"
+    ],
+    "experience_professionnelle": [
+      {
+        "periode": "Avril 2020 - Present",
+        "poste": "Analyste Financier Senior",
+        "entreprise": "BNP Paribas Asset Management, Paris"
+      },
+      {
+        "periode": "Septembre 2017 - Mars 2020",
+        "poste": "Analyste Financier Junior",
+        "entreprise": "Societe Generale CIB, La Defense"
+      },
+      {
+        "periode": "Janvier 2016 - Aout 2017",
+        "poste": "Assistant Analyste",
+        "entreprise": "Cabinet Deloitte Finance, Paris"
+      }
+    ],
+    "formation": [
+      {
+        "periode": "2014 - 2016",
+        "diplome": "Master Finance de Marche",
+        "etablissement": "HEC Paris, Jouy-en-Josas"
+      },
+      {
+        "periode": "2011 - 2014",
+        "diplome": "Licence Economie et Finance",
+        "etablissement": "Universite Paris 1 Pantheon-Sorbonne, Paris"
+      }
+    ],
+    "langues": [
+      {
+        "langue": "Francais",
+        "niveau": "Langue maternelle"
+      },
+      {
+        "langue": "Anglais",
+        "niveau": "Bilingue (C2)"
+      },
+      {
+        "langue": "Allemand",
+        "niveau": "Intermediaire (B1)"
+      }
+    ]
+  },
+  "cv7.txt": {
+    "nom": "Jordan Rivera",
+    "email": "jordan.rivera@designstudio.com",
+    "telephone": "+1 (323) 555-0294",
+    "competences": [
+      "Adobe Photoshop",
+      "Illustrator",
+      "InDesign",
+      "After Effects",
+      "Figma",
+      "Sketch",
+      "Adobe XD",
+      "InVision",
+      "Framer",
+      "After Effects",
+      "Cinema 4D",
+      "Blender",
+      "HTML5",
+      "CSS3",
+      "JavaScript basics",
+      "WordPress",
+      "Brand Identity",
+      "Typography",
+      "Packaging",
+      "Motion Design"
+    ],
+    "experience_professionnelle": [
+      {
+        "periode": "January 2021 - Present",
+        "poste": "Creative Director",
+        "entreprise": "Spark Design Agency, Los Angeles, CA"
+      },
+      {
+        "periode": "April 2018 - December 2020",
+        "poste": "Senior Graphic Designer",
+        "entreprise": "BrandWorks Studio, San Francisco, CA"
+      },
+      {
+        "periode": "August 2015 - March 2018",
+        "poste": "Graphic Designer",
+        "entreprise": "Digital Arts Collective, Portland, OR"
+      }
+    ],
+    "formation": [
+      {
+        "periode": "2011 - 2015",
+        "diplome": "Bachelor of Fine Arts in Graphic Design",
+        "etablissement": "Rhode Island School of Design, Providence, RI"
+      },
+      {
+        "periode": "2014",
+        "diplome": "Exchange Semester in Visual Communication",
+        "etablissement": "Central Saint Martins, London, UK"
+      }
+    ],
+    "langues": [
+      {
+        "langue": "English",
+        "niveau": "Native"
+      },
+      {
+        "langue": "Spanish",
+        "niveau": "Fluent (C1)"
+      },
+      {
+        "langue": "Portuguese",
+        "niveau": "Intermediate (B1)"
+      }
+    ]
+  },
+  "cv8.txt": {
+    "nom": "Philippe Moreau",
+    "email": "philippe.moreau@univ-lyon.fr",
+    "telephone": "04 72 44 81 56",
+    "competences": [
+      "Deep Learning",
+      "NLP",
+      "Computer Vision",
+      "Reinforcement Learning",
+      "Python",
+      "C++",
+      "Julia",
+      "MATLAB",
+      "LaTeX",
+      "PyTorch",
+      "TensorFlow",
+      "Keras",
+      "Scikit-learn",
+      "Git",
+      "Docker",
+      "Jupyter",
+      "Overleaf",
+      "Zotero",
+      "Algorithmique",
+      "Bases de Donnees",
+      "Intelligence Artificielle"
+    ],
+    "experience_professionnelle": [
+      {
+        "periode": "Septembre 2015 - Present",
+        "poste": "Maitre de Conferences en Informatique",
+        "entreprise": "Universite Claude Bernard Lyon 1, Lyon"
+      },
+      {
+        "periode": "Septembre 2012 - Aout 2015",
+        "poste": "Enseignant-Chercheur (ATER)",
+        "entreprise": "Universite Grenoble Alpes, Grenoble"
+      },
+      {
+        "periode": "Octobre 2009 - Aout 2012",
+        "poste": "Doctorant et Charge de TD",
+        "entreprise": "INRIA Rhone-Alpes, Grenoble"
+      }
+    ],
+    "formation": [
+      {
+        "periode": "2009 - 2012",
+        "diplome": "Doctorat en Informatique",
+        "etablissement": "Universite Grenoble Alpes, Grenoble"
+      },
+      {
+        "periode": "2007 - 2009",
+        "diplome": "Master Recherche Intelligence Artificielle",
+        "etablissement": "ENS Lyon, Lyon"
+      },
+      {
+        "periode": "2004 - 2007",
+        "diplome": "Licence Informatique",
+        "etablissement": "Universite Claude Bernard Lyon 1, Lyon"
+      }
+    ],
+    "langues": [
+      {
+        "langue": "Francais",
+        "niveau": "Langue maternelle"
+      },
+      {
+        "langue": "Anglais",
+        "niveau": "Courant (C1)"
+      },
+      {
+        "langue": "Japonais",
+        "niveau": "Intermediaire (B1)"
+      }
+    ]
+  },
+  "cv9.txt": {
+    "nom": "Robert Chen",
+    "email": "robert.chen@civileng.com",
+    "telephone": "+1 (512) 555-0143",
+    "competences": [
+      "SAP2000",
+      "ETABS",
+      "STAAD Pro",
+      "RISA-3D",
+      "AutoCAD Civil 3D",
+      "Revit",
+      "MicroStation",
+      "BIM 360",
+      "PLAXIS",
+      "GeoStudio",
+      "Slope Stability Analysis",
+      "Primavera P6",
+      "MS Project",
+      "Bluebeam",
+      "Python",
+      "MATLAB",
+      "VBA",
+      "Bridge Design",
+      "Transportation",
+      "Stormwater Management"
+    ],
+    "experience_professionnelle": [
+      {
+        "periode": "June 2019 - Present",
+        "poste": "Senior Civil Engineer",
+        "entreprise": "Turner Infrastructure Group, Austin, TX"
+      },
+      {
+        "periode": "March 2016 - May 2019",
+        "poste": "Civil Engineer",
+        "entreprise": "Bechtel Corporation, Houston, TX"
+      },
+      {
+        "periode": "January 2014 - February 2016",
+        "poste": "Junior Civil Engineer",
+        "entreprise": "Kiewit Engineering, Denver, CO"
+      }
+    ],
+    "formation": [
+      {
+        "periode": "2012 - 2014",
+        "diplome": "Master of Science in Civil Engineering",
+        "etablissement": "University of Texas at Austin, Austin, TX"
+      },
+      {
+        "periode": "2008 - 2012",
+        "diplome": "Bachelor of Science in Civil Engineering",
+        "etablissement": "Colorado School of Mines, Golden, CO"
+      }
+    ],
+    "langues": [
+      {
+        "langue": "English",
+        "niveau": "Native"
+      },
+      {
+        "langue": "Mandarin",
+        "niveau": "Fluent (C2)"
+      },
+      {
+        "langue": "Spanish",
+        "niveau": "Basic (A2)"
+      }
+    ]
+  },
+  "cv10.txt": {
+    "nom": "Nathalie Girard",
+    "email": "nathalie.girard@rh-solutions.fr",
+    "telephone": "06 23 91 45 67",
+    "competences": [
+      "Recrutement",
+      "GPEC",
+      "Formation",
+      "Relations Sociales",
+      "SAP SuccessFactors",
+      "Workday",
+      "Talentsoft",
+      "ADP",
+      "Code du travail",
+      "Conventions collectives",
+      "CSE",
+      "Conduite du changement",
+      "Coaching",
+      "Leadership",
+      "Pack Office",
+      "Power BI",
+      "LinkedIn Recruiter",
+      "Assessment"
+    ],
+    "experience_professionnelle": [
+      {
+        "periode": "Janvier 2018 - Present",
+        "poste": "Directrice des Ressources Humaines",
+        "entreprise": "Airbus Defence & Space, Toulouse"
+      },
+      {
+        "periode": "Septembre 2014 - Decembre 2017",
+        "poste": "Responsable Recrutement",
+        "entreprise": "Capgemini Technology Services, Paris"
+      },
+      {
+        "periode": "Mars 2011 - Aout 2014",
+        "poste": "Chargee de Developpement RH",
+        "entreprise": "Groupe Danone, Evry"
+      }
+    ],
+    "formation": [
+      {
+        "periode": "2009 - 2011",
+        "diplome": "Master Management des Ressources Humaines",
+        "etablissement": "IAE Toulouse, Toulouse"
+      },
+      {
+        "periode": "2006 - 2009",
+        "diplome": "Licence Droit Social et Relations du Travail",
+        "etablissement": "Universite Toulouse 1 Capitole, Toulouse"
+      }
+    ],
+    "langues": [
+      {
+        "langue": "Francais",
+        "niveau": "Langue maternelle"
+      },
+      {
+        "langue": "Anglais",
+        "niveau": "Courant (C1)"
+      },
+      {
+        "langue": "Espagnol",
+        "niveau": "Intermediaire (B2)"
+      }
+    ]
+  },
+  "cv11.txt": {
+    "nom": "Kevin Park",
+    "email": "kevin.park.data@gmail.com",
+    "telephone": "+1 (646) 555-0312",
+    "competences": [
+      "Python",
+      "R",
+      "SQL",
+      "Excel VBA",
+      "Tableau",
+      "Power BI",
+      "Matplotlib",
+      "Seaborn",
+      "PostgreSQL",
+      "MySQL",
+      "BigQuery",
+      "Snowflake",
+      "Hypothesis Testing",
+      "Regression",
+      "Time Series",
+      "A/B Testing"
+    ],
+    "experience_professionnelle": [
+      {
+        "periode": "June 2022 - Present",
+        "poste": "Data Analyst",
+        "entreprise": "FinTech Solutions Inc., New York, NY"
+      },
+      {
+        "periode": "January 2022 - May 2022",
+        "poste": "Data Analyst Intern",
+        "entreprise": "RetailMetrics Corp., New York, NY"
+      }
+    ],
+    "formation": [
+      {
+        "periode": "2018 - 2022",
+        "diplome": "Bachelor of Science in Statistics",
+        "etablissement": "New York University, New York, NY"
+      }
+    ],
+    "langues": [
+      {
+        "langue": "English",
+        "niveau": "Native"
+      },
+      {
+        "langue": "Korean",
+        "niveau": "Fluent (C2)"
+      },
+      {
+        "langue": "Japanese",
+        "niveau": "Basic (A1)"
+      }
+    ]
+  },
+  "cv12.txt": {
+    "nom": "Jean-Pierre Lefebvre",
+    "email": "jp.lefebvre@gastronomie.fr",
+    "telephone": "06 78 34 12 90",
+    "competences": [
+      "Gastronomie francaise",
+      "Cuisine moleculaire",
+      "Patisserie fine",
+      "Management de brigade",
+      "Gestion des couts",
+      "Food cost",
+      "Sous-vide",
+      "Fermentation",
+      "Fumage",
+      "Maturation",
+      "HACCP",
+      "Normes sanitaires",
+      "Tracabilite",
+      "Logiciel Koust",
+      "EBP Restauration",
+      "Excel"
+    ],
+    "experience_professionnelle": [
+      {
+        "periode": "Mars 2018 - Present",
+        "poste": "Chef Executif",
+        "entreprise": "Restaurant Le Jardin des Saveurs, Lyon"
+      },
+      {
+        "periode": "Juin 2014 - Fevrier 2018",
+        "poste": "Chef de Partie Senior",
+        "entreprise": "Hotel Le Bristol Paris, Paris"
+      },
+      {
+        "periode": "Septembre 2010 - Mai 2014",
+        "poste": "Commis de Cuisine",
+        "entreprise": "Restaurant Paul Bocuse, Collonges-au-Mont-d'Or"
+      }
+    ],
+    "formation": [
+      {
+        "periode": "2008 - 2010",
+        "diplome": "BTS Hotellerie-Restauration option Art Culinaire",
+        "etablissement": "Lycee Hotelier Tsuji, Lyon"
+      },
+      {
+        "periode": "2006 - 2008",
+        "diplome": "CAP Cuisine",
+        "etablissement": "CFA de la Cuisine, Lyon"
+      }
+    ],
+    "langues": [
+      {
+        "langue": "Francais",
+        "niveau": "Langue maternelle"
+      },
+      {
+        "langue": "Anglais",
+        "niveau": "Intermediaire (B1)"
+      },
+      {
+        "langue": "Italien",
+        "niveau": "Courant (C1)"
+      },
+      {
+        "langue": "Japonais",
+        "niveau": "Notions (A2)"
+      }
+    ]
+  },
+  "cv13.txt": {
+    "nom": "Michael Thompson",
+    "email": "m.thompson.pmp@outlook.com",
+    "telephone": "+1 (202) 555-0178",
+    "competences": [
+      "PMP",
+      "Agile",
+      "Scrum",
+      "SAFe",
+      "ITIL",
+      "Waterfall",
+      "Kanban",
+      "MS Project",
+      "Jira",
+      "Confluence",
+      "ServiceNow",
+      "Smartsheet",
+      "AWS",
+      "Azure",
+      "Google Cloud Platform",
+      "SQL",
+      "Python basics",
+      "Visio",
+      "Power BI",
+      "SharePoint",
+      "Risk Management",
+      "Change Management",
+      "Earned Value Management"
+    ],
+    "experience_professionnelle": [
+      {
+        "periode": "August 2019 - Present",
+        "poste": "Senior Program Manager",
+        "entreprise": "Deloitte Consulting, Washington, DC"
+      },
+      {
+        "periode": "February 2016 - July 2019",
+        "poste": "Project Manager",
+        "entreprise": "Booz Allen Hamilton, McLean, VA"
+      },
+      {
+        "periode": "January 2012 - January 2016",
+        "poste": "Associate Project Manager",
+        "entreprise": "IBM Federal, Bethesda, MD"
+      }
+    ],
+    "formation": [
+      {
+        "periode": "2010 - 2012",
+        "diplome": "Master of Business Administration",
+        "etablissement": "Georgetown University, Washington, DC"
+      },
+      {
+        "periode": "2006 - 2010",
+        "diplome": "Bachelor of Science in Information Systems",
+        "etablissement": "Virginia Tech, Blacksburg, VA"
+      }
+    ],
+    "langues": [
+      {
+        "langue": "English",
+        "niveau": "Native"
+      },
+      {
+        "langue": "Spanish",
+        "niveau": "Conversational (B2)"
+      },
+      {
+        "langue": "Arabic",
+        "niveau": "Basic (A2)"
+      }
+    ]
+  },
+  "cv14.txt": {
+    "nom": "Sophie Marchand",
+    "email": "sophie.marchand@pharmacie.fr",
+    "telephone": "06 91 23 45 78",
+    "competences": [
+      "Dispensation",
+      "Conseil therapeutique",
+      "PDA",
+      "Vaccination",
+      "Droit pharmaceutique",
+      "Pharmacovigilance",
+      "BPD",
+      "Management officine",
+      "Gestion stocks",
+      "Comptabilite",
+      "LGPI",
+      "Winpharma",
+      "Pharmavie",
+      "Excel",
+      "Access",
+      "Oncologie",
+      "Geriatrie",
+      "Phytotherapie",
+      "Aromatherapie"
+    ],
+    "experience_professionnelle": [
+      {
+        "periode": "Janvier 2019 - Present",
+        "poste": "Pharmacien Titulaire",
+        "entreprise": "Pharmacie Marchand, Bordeaux"
+      },
+      {
+        "periode": "Septembre 2015 - Decembre 2018",
+        "poste": "Pharmacien Adjoint",
+        "entreprise": "Pharmacie du Centre, Toulouse"
+      },
+      {
+        "periode": "Janvier 2014 - Aout 2015",
+        "poste": "Pharmacien Hospitalier (Interne)",
+        "entreprise": "CHU de Bordeaux, Bordeaux"
+      }
+    ],
+    "formation": [
+      {
+        "periode": "2008 - 2014",
+        "diplome": "Doctorat en Pharmacie",
+        "etablissement": "Universite de Bordeaux, Bordeaux"
+      },
+      {
+        "periode": "2014",
+        "diplome": "Diplome d'Etudes Specialisees en Pharmacie Hospitaliere",
+        "etablissement": "CHU de Bordeaux, Bordeaux"
+      }
+    ],
+    "langues": [
+      {
+        "langue": "Francais",
+        "niveau": "Langue maternelle"
+      },
+      {
+        "langue": "Anglais",
+        "niveau": "Courant (B2)"
+      },
+      {
+        "langue": "Portugais",
+        "niveau": "Intermediaire (B1)"
+      }
+    ]
+  },
+  "cv15.txt": {
+    "nom": "Amanda Foster",
+    "email": "amanda.foster@uxcraft.io",
+    "telephone": "+1 (415) 555-0256",
+    "competences": [
+      "User Research",
+      "Wireframing",
+      "Prototyping",
+      "Usability Testing",
+      "Figma",
+      "Sketch",
+      "Adobe XD",
+      "InVision",
+      "Miro",
+      "Whimsical",
+      "Framer",
+      "Principle",
+      "ProtoPie",
+      "Marvel",
+      "HTML5",
+      "CSS3",
+      "React basics",
+      "Tailwind CSS",
+      "UserTesting.com",
+      "Optimal Workshop",
+      "Dovetail",
+      "SurveyMonkey"
+    ],
+    "experience_professionnelle": [
+      {
+        "periode": "May 2021 - Present",
+        "poste": "Lead UX Designer",
+        "entreprise": "Stripe, San Francisco, CA"
+      },
+      {
+        "periode": "September 2019 - April 2021",
+        "poste": "Senior UX Designer",
+        "entreprise": "Airbnb, San Francisco, CA"
+      },
+      {
+        "periode": "March 2017 - August 2019",
+        "poste": "UX Designer",
+        "entreprise": "Dropbox, San Francisco, CA"
+      }
+    ],
+    "formation": [
+      {
+        "periode": "2013 - 2017",
+        "diplome": "Bachelor of Arts in Human-Computer Interaction",
+        "etablissement": "Carnegie Mellon University, Pittsburgh, PA"
+      },
+      {
+        "periode": "2016",
+        "diplome": "UX Design Certificate",
+        "etablissement": "Nielsen Norman Group"
+      }
+    ],
+    "langues": [
+      {
+        "langue": "English",
+        "niveau": "Native"
+      },
+      {
+        "langue": "German",
+        "niveau": "Intermediate (B2)"
+      },
+      {
+        "langue": "Italian",
+        "niveau": "Basic (A1)"
+      }
+    ]
+  },
+  "cv16.txt": {
+    "nom": "Francois Dubois",
+    "email": "f.dubois@cabinet-juridique.fr",
+    "telephone": "01 44 56 78 90",
+    "competences": [
+      "Droit des societes",
+      "M&A",
+      "Droit commercial",
+      "Propriete intellectuelle",
+      "Arbitrage",
+      "Mediation",
+      "Procedures collectives",
+      "Contrats",
+      "Statuts",
+      "Pactes d'associes",
+      "NDA",
+      "Lexis Nexis",
+      "Dalloz",
+      "Doctrine.fr",
+      "Legifrance",
+      "Secib",
+      "Jarvis Legal",
+      "Facturation",
+      "Comptabilite"
+    ],
+    "experience_professionnelle": [
+      {
+        "periode": "Septembre 2016 - Present",
+        "poste": "Avocat Associe - Droit des Affaires",
+        "entreprise": "Cabinet Dubois & Associes, Paris"
+      },
+      {
+        "periode": "Janvier 2012 - Aout 2016",
+        "poste": "Avocat Collaborateur",
+        "entreprise": "Cabinet Gide Loyrette Nouel, Paris"
+      },
+      {
+        "periode": "Septembre 2010 - Decembre 2011",
+        "poste": "Avocat Stagiaire",
+        "entreprise": "Cabinet Allen & Overy LLP, Paris"
+      }
+    ],
+    "formation": [
+      {
+        "periode": "2009 - 2010",
+        "diplome": "Certificat d'Aptitude a la Profession d'Avocat (CAPA)",
+        "etablissement": "EFB - Ecole de Formation du Barreau, Paris"
+      },
+      {
+        "periode": "2007 - 2009",
+        "diplome": "Master 2 Droit des Affaires et Fiscalite",
+        "etablissement": "Universite Paris 2 Pantheon-Assas, Paris"
+      },
+      {
+        "periode": "2004 - 2007",
+        "diplome": "Licence en Droit",
+        "etablissement": "Universite Paris 1 Pantheon-Sorbonne, Paris"
+      }
+    ],
+    "langues": [
+      {
+        "langue": "Francais",
+        "niveau": "Langue maternelle"
+      },
+      {
+        "langue": "Anglais",
+        "niveau": "Bilingue (LLM a NYU)"
+      },
+      {
+        "langue": "Allemand",
+        "niveau": "Courant (C1)"
+      }
+    ]
+  },
+  "cv17.txt": {
+    "nom": "David Kumar",
+    "email": "david.kumar@devops-pro.io",
+    "telephone": "+1 (206) 555-0198",
+    "competences": [
+      "AWS",
+      "GCP",
+      "Azure",
+      "DigitalOcean",
+      "Docker",
+      "Kubernetes",
+      "ECS",
+      "Helm",
+      "Istio",
+      "Terraform",
+      "Pulumi",
+      "CloudFormation",
+      "Ansible",
+      "Chef",
+      "Jenkins",
+      "GitHub Actions",
+      "GitLab CI",
+      "ArgoCD",
+      "Flux",
+      "Prometheus",
+      "Grafana",
+      "Datadog",
+      "PagerDuty",
+      "ELK Stack",
+      "Python",
+      "Go",
+      "Bash",
+      "Ruby",
+      "TypeScript"
+    ],
+    "experience_professionnelle": [
+      {
+        "periode": "April 2021 - Present",
+        "poste": "Senior DevOps Engineer",
+        "entreprise": "Amazon Web Services, Seattle, WA"
+      },
+      {
+        "periode": "January 2019 - March 2021",
+        "poste": "DevOps Engineer",
+        "entreprise": "Spotify, New York, NY"
+      },
+      {
+        "periode": "July 2016 - December 2018",
+        "poste": "Systems Engineer",
+        "entreprise": "Netflix, Los Gatos, CA"
+      }
+    ],
+    "formation": [
+      {
+        "periode": "2012 - 2016",
+        "diplome": "Bachelor of Science in Computer Engineering",
+        "etablissement": "University of Washington, Seattle, WA"
+      }
+    ],
+    "langues": [
+      {
+        "langue": "English",
+        "niveau": "Native"
+      },
+      {
+        "langue": "Hindi",
+        "niveau": "Fluent (C2)"
+      },
+      {
+        "langue": "Tamil",
+        "niveau": "Conversational (B1)"
+      }
+    ]
+  },
+  "cv18.txt": {
+    "nom": "Laurent Vasseur",
+    "email": "laurent.vasseur@archi-studio.fr",
+    "telephone": "06 54 32 10 87",
+    "competences": [
+      "Architecture durable",
+      "Bioclimatique",
+      "Renovation",
+      "Urbanisme",
+      "AutoCAD",
+      "Revit",
+      "ArchiCAD",
+      "SketchUp",
+      "Rhino",
+      "Grasshopper",
+      "V-Ray",
+      "Lumion",
+      "Twinmotion",
+      "Photoshop",
+      "InDesign",
+      "Revit MEP",
+      "Navisworks",
+      "BIM 360",
+      "IFC",
+      "RT2020",
+      "RE2020",
+      "PLU",
+      "ERP",
+      "Accessibilite PMR"
+    ],
+    "experience_professionnelle": [
+      {
+        "periode": "Fevrier 2017 - Present",
+        "poste": "Architecte DPLG - Associe",
+        "entreprise": "Agence Vasseur & Partners, Paris"
+      },
+      {
+        "periode": "Septembre 2013 - Janvier 2017",
+        "poste": "Architecte Chef de Projet",
+        "entreprise": "Atelier Jean Nouvel, Paris"
+      },
+      {
+        "periode": "Mars 2010 - Aout 2013",
+        "poste": "Architecte Collaborateur",
+        "entreprise": "Cabinet Wilmotte & Associes, Paris"
+      }
+    ],
+    "formation": [
+      {
+        "periode": "2008 - 2010",
+        "diplome": "Habilitation HMONP (Architecte DPLG)",
+        "etablissement": "ENSA Paris-Belleville, Paris"
+      },
+      {
+        "periode": "2003 - 2008",
+        "diplome": "Diplome d'Etat d'Architecte",
+        "etablissement": "ENSA Paris-Belleville, Paris"
+      }
+    ],
+    "langues": [
+      {
+        "langue": "Francais",
+        "niveau": "Langue maternelle"
+      },
+      {
+        "langue": "Anglais",
+        "niveau": "Courant (C1)"
+      },
+      {
+        "langue": "Espagnol",
+        "niveau": "Intermediaire (B1)"
+      },
+      {
+        "langue": "Arabe",
+        "niveau": "Notions (A2)"
+      }
+    ]
+  },
+  "cv19.txt": {
+    "nom": "Jessica Nguyen",
+    "email": "jessica.nguyen@marketmail.com",
+    "telephone": "+1 (312) 555-0167",
+    "competences": [
+      "Google Analytics",
+      "Adobe Analytics",
+      "Mixpanel",
+      "Excel",
+      "SEO",
+      "SEM",
+      "Social Media Marketing",
+      "Email Marketing",
+      "Salesforce",
+      "HubSpot",
+      "Mailchimp",
+      "Hootsuite",
+      "Sprout Social",
+      "SQL",
+      "Python basics",
+      "Tableau",
+      "Google Data Studio"
+    ],
+    "experience_professionnelle": [
+      {
+        "periode": "August 2023 - Present",
+        "poste": "Marketing Analyst",
+        "entreprise": "Kraft Heinz Company, Chicago, IL"
+      },
+      {
+        "periode": "May 2023 - August 2023",
+        "poste": "Marketing Intern",
+        "entreprise": "Leo Burnett Advertising, Chicago, IL"
+      }
+    ],
+    "formation": [
+      {
+        "periode": "2019 - 2023",
+        "diplome": "Bachelor of Science in Marketing",
+        "etablissement": "Northwestern University, Evanston, IL"
+      }
+    ],
+    "langues": [
+      {
+        "langue": "English",
+        "niveau": "Native"
+      },
+      {
+        "langue": "Vietnamese",
+        "niveau": "Fluent (C1)"
+      },
+      {
+        "langue": "Spanish",
+        "niveau": "Basic (A2)"
+      }
+    ]
+  },
+  "cv20.txt": {
+    "nom": "Bernard Castellane",
+    "email": "b.castellane@direction-commerciale.fr",
+    "telephone": "+33 6 12 98 76 54",
+    "competences": [
+      "Strategie commerciale",
+      "Negociation",
+      "Key Account Management",
+      "Leadership",
+      "Conduite du changement",
+      "Coaching d'equipes",
+      "Salesforce",
+      "SAP CRM",
+      "Microsoft Dynamics",
+      "Pipedrive",
+      "Business Development",
+      "Go-to-Market",
+      "Revenue Operations",
+      "Marketing automation",
+      "Social selling",
+      "CRM analytics"
+    ],
+    "experience_professionnelle": [
+      {
+        "periode": "Janvier 2016 - Present",
+        "poste": "Directeur Commercial",
+        "entreprise": "Groupe Bouygues Telecom, Paris"
+      },
+      {
+        "periode": "Avril 2012 - Decembre 2015",
+        "poste": "Directeur Regional des Ventes",
+        "entreprise": "Oracle France, La Defense"
+      },
+      {
+        "periode": "Septembre 2007 - Mars 2012",
+        "poste": "Responsable Grands Comptes",
+        "entreprise": "Salesforce France, Paris"
+      },
+      {
+        "periode": "Mars 2003 - Aout 2007",
+        "poste": "Ingenieur Commercial",
+        "entreprise": "IBM France, Bois-Colombes"
+      }
+    ],
+    "formation": [
+      {
+        "periode": "2001 - 2003",
+        "diplome": "MBA Direction Commerciale et Marketing",
+        "etablissement": "INSEAD, Fontainebleau"
+      },
+      {
+        "periode": "1997 - 2001",
+        "diplome": "Diplome d'Ingenieur Generaliste",
+        "etablissement": "Ecole Centrale Paris, Chatenay-Malabry"
+      }
+    ],
+    "langues": [
+      {
+        "langue": "Francais",
+        "niveau": "Langue maternelle"
+      },
+      {
+        "langue": "Anglais",
+        "niveau": "Bilingue (MBA INSEAD)"
+      },
+      {
+        "langue": "Espagnol",
+        "niveau": "Courant (C1)"
+      },
+      {
+        "langue": "Mandarin",
+        "niveau": "Notions (A2)"
+      }
+    ]
   }
 }

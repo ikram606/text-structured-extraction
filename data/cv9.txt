@@ -1,0 +1,76 @@
+==============================
+RESUME
+==============================
+
+Name: Robert Chen
+Email: robert.chen@civileng.com
+Phone: +1 (512) 555-0143
+Location: Austin, TX 78701
+
+------------------------------
+PROFESSIONAL SUMMARY
+------------------------------
+
+Licensed Professional Engineer (PE) with 10 years of experience in
+structural and civil engineering. Expertise in bridge design, transportation
+infrastructure, and project management for public sector clients.
+
+------------------------------
+WORK EXPERIENCE
+------------------------------
+
+June 2019 - Present : Senior Civil Engineer
+    Company: Turner Infrastructure Group, Austin, TX
+    - Lead engineer for $50M highway interchange project
+    - Structural analysis and design of bridges and overpasses
+    - Management of engineering team of 6 professionals
+    - Client coordination with TxDOT and local municipalities
+
+March 2016 - May 2019 : Civil Engineer
+    Company: Bechtel Corporation, Houston, TX
+    - Designed drainage systems for commercial developments
+    - Performed geotechnical analysis and foundation design
+    - Prepared construction drawings using AutoCAD Civil 3D
+
+January 2014 - February 2016 : Junior Civil Engineer
+    Company: Kiewit Engineering, Denver, CO
+    - Assisted in roadway design and traffic analysis
+    - Conducted site surveys and soil investigations
+    - Prepared engineering reports and permit applications
+
+------------------------------
+EDUCATION
+------------------------------
+
+2012 - 2014 : Master of Science in Civil Engineering
+               University of Texas at Austin, Austin, TX
+
+2008 - 2012 : Bachelor of Science in Civil Engineering
+               Colorado School of Mines, Golden, CO
+
+------------------------------
+SKILLS
+------------------------------
+
+Structural Analysis : SAP2000, ETABS, STAAD Pro, RISA-3D
+Design Software : AutoCAD Civil 3D, Revit, MicroStation, BIM 360
+Geotechnical : PLAXIS, GeoStudio, Slope Stability Analysis
+Project Management : Primavera P6, MS Project, Bluebeam
+Programming : Python, MATLAB, VBA
+Specializations : Bridge Design, Transportation, Stormwater Management
+
+------------------------------
+LANGUAGES
+------------------------------
+
+English : Native
+Mandarin : Fluent (C2)
+Spanish : Basic (A2)
+
+------------------------------
+CERTIFICATIONS
+------------------------------
+
+- Professional Engineer (PE) - Texas License
+- PMP - Project Management Professional
+- LEED AP BD+C

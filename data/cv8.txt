@@ -1,0 +1,70 @@
+==============================
+CURRICULUM VITAE
+==============================
+
+Nom : Philippe Moreau
+Email : philippe.moreau@univ-lyon.fr
+Telephone : 04 72 44 81 56
+Adresse : 12 rue Pasteur, 69007 Lyon
+
+------------------------------
+EXPERIENCE PROFESSIONNELLE
+------------------------------
+
+Septembre 2015 - Present : Maitre de Conferences en Informatique
+    Entreprise : Universite Claude Bernard Lyon 1, Lyon
+    - Enseignement en Licence et Master (algorithmique, IA, bases de donnees)
+    - Direction de 8 theses de doctorat
+    - Publication de 35 articles dans des revues internationales
+    - Responsable du Master Data Science
+
+Septembre 2012 - Aout 2015 : Enseignant-Chercheur (ATER)
+    Entreprise : Universite Grenoble Alpes, Grenoble
+    - Cours de programmation et structures de donnees
+    - Recherche en apprentissage automatique
+    - Encadrement de projets etudiants
+
+Octobre 2009 - Aout 2012 : Doctorant et Charge de TD
+    Entreprise : INRIA Rhone-Alpes, Grenoble
+    - These sur les methodes d'apprentissage profond pour la vision
+    - Publication de 5 articles en conferences internationales
+    - Animation de travaux diriges en Licence
+
+------------------------------
+FORMATION
+------------------------------
+
+2009 - 2012 : Doctorat en Informatique
+               Universite Grenoble Alpes, Grenoble
+
+2007 - 2009 : Master Recherche Intelligence Artificielle
+               ENS Lyon, Lyon
+
+2004 - 2007 : Licence Informatique
+               Universite Claude Bernard Lyon 1, Lyon
+
+------------------------------
+COMPETENCES
+------------------------------
+
+Recherche : Deep Learning, NLP, Computer Vision, Reinforcement Learning
+Programmation : Python, C++, Julia, MATLAB, LaTeX
+Frameworks : PyTorch, TensorFlow, Keras, Scikit-learn
+Outils : Git, Docker, Jupyter, Overleaf, Zotero
+Enseignement : Algorithmique, Bases de Donnees, Intelligence Artificielle
+
+------------------------------
+LANGUES
+------------------------------
+
+Francais : Langue maternelle
+Anglais : Courant (C1)
+Japonais : Intermediaire (B1)
+
+------------------------------
+PUBLICATIONS SELECTIONNEES
+------------------------------
+
+- "Deep Attention Networks for NLP" - ACL 2022
+- "Vision Transformers: A Survey" - IEEE TPAMI 2021
+- "Reinforcement Learning in Robotics" - ICML 2019

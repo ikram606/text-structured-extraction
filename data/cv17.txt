@@ -1,0 +1,78 @@
+==============================
+RESUME
+==============================
+
+Name: David Kumar
+Email: david.kumar@devops-pro.io
+Phone: +1 (206) 555-0198
+Location: Seattle, WA 98101
+GitHub: github.com/dkumar-devops
+
+------------------------------
+PROFESSIONAL SUMMARY
+------------------------------
+
+DevOps Engineer with 7 years of experience building and maintaining
+cloud infrastructure at scale. Expert in CI/CD pipelines, container
+orchestration, and infrastructure as code. Passionate about automation
+and site reliability engineering.
+
+------------------------------
+WORK EXPERIENCE
+------------------------------
+
+April 2021 - Present : Senior DevOps Engineer
+    Company: Amazon Web Services, Seattle, WA
+    - Architected multi-region infrastructure serving 100M+ requests/day
+    - Built CI/CD pipelines reducing deployment time from hours to minutes
+    - Implemented GitOps workflows with ArgoCD and Flux
+    - Led incident response and post-mortem process improvements
+
+January 2019 - March 2021 : DevOps Engineer
+    Company: Spotify, New York, NY
+    - Managed Kubernetes clusters (500+ nodes across 3 regions)
+    - Developed Terraform modules for standardized infrastructure
+    - Implemented monitoring and alerting using Prometheus and Grafana
+    - Reduced infrastructure costs by 35% through optimization
+
+July 2016 - December 2018 : Systems Engineer
+    Company: Netflix, Los Gatos, CA
+    - Maintained Linux server fleet (2000+ instances)
+    - Automated deployment processes using Ansible and Jenkins
+    - Configured load balancers and CDN infrastructure
+    - Participated in on-call rotation for production systems
+
+------------------------------
+EDUCATION
+------------------------------
+
+2012 - 2016 : Bachelor of Science in Computer Engineering
+               University of Washington, Seattle, WA
+
+------------------------------
+SKILLS
+------------------------------
+
+Cloud Platforms : AWS, GCP, Azure, DigitalOcean
+Containers : Docker, Kubernetes, ECS, Helm, Istio
+IaC : Terraform, Pulumi, CloudFormation, Ansible, Chef
+CI/CD : Jenkins, GitHub Actions, GitLab CI, ArgoCD, Flux
+Monitoring : Prometheus, Grafana, Datadog, PagerDuty, ELK Stack
+Programming : Python, Go, Bash, Ruby, TypeScript
+
+------------------------------
+LANGUAGES
+------------------------------
+
+English : Native
+Hindi : Fluent (C2)
+Tamil : Conversational (B1)
+
+------------------------------
+CERTIFICATIONS
+------------------------------
+
+- AWS Solutions Architect Professional
+- Certified Kubernetes Administrator (CKA)
+- HashiCorp Certified Terraform Associate
+- Google Cloud Professional DevOps Engineer

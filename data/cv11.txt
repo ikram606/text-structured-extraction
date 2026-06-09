@@ -1,0 +1,49 @@
+==============================
+RESUME
+==============================
+
+Name: Kevin Park
+Email: kevin.park.data@gmail.com
+Phone: +1 (646) 555-0312
+Location: New York, NY 10001
+
+------------------------------
+WORK EXPERIENCE
+------------------------------
+
+June 2022 - Present : Data Analyst
+    Company: FinTech Solutions Inc., New York, NY
+    - Developed automated reporting dashboards using Tableau
+    - Performed SQL queries on large datasets (50M+ rows)
+    - Created A/B testing frameworks for product team
+    - Generated weekly KPI reports for executive leadership
+
+January 2022 - May 2022 : Data Analyst Intern
+    Company: RetailMetrics Corp., New York, NY
+    - Cleaned and transformed customer transaction data
+    - Built predictive models for inventory optimization
+    - Presented findings to cross-functional stakeholders
+
+------------------------------
+EDUCATION
+------------------------------
+
+2018 - 2022 : Bachelor of Science in Statistics
+               New York University, New York, NY
+
+------------------------------
+SKILLS
+------------------------------
+
+Programming : Python, R, SQL, Excel VBA
+Visualization : Tableau, Power BI, Matplotlib, Seaborn
+Databases : PostgreSQL, MySQL, BigQuery, Snowflake
+Statistics : Hypothesis Testing, Regression, Time Series, A/B Testing
+
+------------------------------
+LANGUAGES
+------------------------------
+
+English : Native
+Korean : Fluent (C2)
+Japanese : Basic (A1)

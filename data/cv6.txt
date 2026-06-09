@@ -1,0 +1,66 @@
+================================
+CURRICULUM VITAE
+================================
+
+Nom : Alexandre Renaud
+Email : a.renaud@finance-conseil.fr
+Telephone : +33 6 87 45 23 19
+Adresse : 5 place de la Bourse, 75002 Paris
+
+--------------------------------
+EXPERIENCE PROFESSIONNELLE
+--------------------------------
+
+Avril 2020 - Present : Analyste Financier Senior
+    Entreprise : BNP Paribas Asset Management, Paris
+    - Analyse fondamentale des marches actions europeens
+    - Modelisation financiere et valorisation d'entreprises
+    - Redaction de notes d'investissement pour clients institutionnels
+    - Gestion d'un portefeuille sectoriel de 500M EUR
+
+Septembre 2017 - Mars 2020 : Analyste Financier Junior
+    Entreprise : Societe Generale CIB, La Defense
+    - Support a l'equipe de recherche actions
+    - Construction de modeles DCF et comparables
+    - Suivi des resultats trimestriels de 25 societes
+
+Janvier 2016 - Aout 2017 : Assistant Analyste
+    Entreprise : Cabinet Deloitte Finance, Paris
+    - Due diligence financiere pour operations M&A
+    - Analyse de donnees comptables et financieres
+    - Preparation de rapports de valorisation
+
+--------------------------------
+FORMATION
+--------------------------------
+
+2014 - 2016 : Master Finance de Marche
+               HEC Paris, Jouy-en-Josas
+
+2011 - 2014 : Licence Economie et Finance
+               Universite Paris 1 Pantheon-Sorbonne, Paris
+
+--------------------------------
+COMPETENCES
+--------------------------------
+
+Analyse Financiere : Valorisation DCF, Multiples, LBO, M&A
+Outils : Bloomberg Terminal, Reuters Eikon, FactSet, Capital IQ
+Modelisation : Excel avance, VBA, Python, R
+Comptabilite : IFRS, US GAAP, Normes francaises
+Reporting : Power BI, Tableau, LaTeX
+
+--------------------------------
+LANGUES
+--------------------------------
+
+Francais : Langue maternelle
+Anglais : Bilingue (C2)
+Allemand : Intermediaire (B1)
+
+--------------------------------
+CERTIFICATIONS
+--------------------------------
+
+- CFA Level III (Charterholder)
+- AMF Certification Professionnelle

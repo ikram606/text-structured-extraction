@@ -1,0 +1,49 @@
+==============================
+RESUME
+==============================
+
+Name: Jessica Nguyen
+Email: jessica.nguyen@marketmail.com
+Phone: +1 (312) 555-0167
+Location: Chicago, IL 60601
+
+------------------------------
+WORK EXPERIENCE
+------------------------------
+
+August 2023 - Present : Marketing Analyst
+    Company: Kraft Heinz Company, Chicago, IL
+    - Analyze campaign performance metrics across digital channels
+    - Create weekly and monthly marketing reports for stakeholders
+    - Support A/B testing initiatives for email marketing
+    - Assist in customer segmentation using SQL and Python
+
+May 2023 - August 2023 : Marketing Intern
+    Company: Leo Burnett Advertising, Chicago, IL
+    - Assisted in social media analytics and reporting
+    - Conducted competitor research for client presentations
+    - Helped manage content calendar for 3 client accounts
+
+------------------------------
+EDUCATION
+------------------------------
+
+2019 - 2023 : Bachelor of Science in Marketing
+               Northwestern University, Evanston, IL
+
+------------------------------
+SKILLS
+------------------------------
+
+Analytics : Google Analytics, Adobe Analytics, Mixpanel, Excel
+Digital Marketing : SEO, SEM, Social Media Marketing, Email Marketing
+Tools : Salesforce, HubSpot, Mailchimp, Hootsuite, Sprout Social
+Data : SQL, Python basics, Tableau, Google Data Studio
+
+------------------------------
+LANGUAGES
+------------------------------
+
+English : Native
+Vietnamese : Fluent (C1)
+Spanish : Basic (A2)

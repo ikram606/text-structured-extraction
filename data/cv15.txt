@@ -1,0 +1,68 @@
+==============================
+RESUME
+==============================
+
+Name: Amanda Foster
+Email: amanda.foster@uxcraft.io
+Phone: +1 (415) 555-0256
+Location: San Francisco, CA 94107
+Portfolio: amandafosterux.com
+
+------------------------------
+PROFESSIONAL SUMMARY
+------------------------------
+
+UX Designer with 6 years of experience creating intuitive digital
+experiences for web and mobile products. Passionate about user research,
+accessibility, and design systems that scale.
+
+------------------------------
+WORK EXPERIENCE
+------------------------------
+
+May 2021 - Present : Lead UX Designer
+    Company: Stripe, San Francisco, CA
+    - Lead design for merchant onboarding (conversion +35%)
+    - Established design system used across 8 product teams
+    - Conducted 50+ user research sessions with merchants
+    - Mentored 3 junior designers on the team
+
+September 2019 - April 2021 : Senior UX Designer
+    Company: Airbnb, San Francisco, CA
+    - Redesigned host management dashboard
+    - Led accessibility audit and WCAG 2.1 compliance initiative
+    - Created user journey maps and service blueprints
+
+March 2017 - August 2019 : UX Designer
+    Company: Dropbox, San Francisco, CA
+    - Designed file sharing and collaboration features
+    - Conducted usability testing with 200+ participants
+    - Built interactive prototypes for stakeholder reviews
+
+------------------------------
+EDUCATION
+------------------------------
+
+2013 - 2017 : Bachelor of Arts in Human-Computer Interaction
+               Carnegie Mellon University, Pittsburgh, PA
+
+2016 : UX Design Certificate
+        Nielsen Norman Group
+
+------------------------------
+SKILLS
+------------------------------
+
+UX Design : User Research, Wireframing, Prototyping, Usability Testing
+Design Tools : Figma, Sketch, Adobe XD, InVision, Miro, Whimsical
+Prototyping : Framer, Principle, ProtoPie, Marvel
+Front-end : HTML5, CSS3, React basics, Tailwind CSS
+Research : UserTesting.com, Optimal Workshop, Dovetail, SurveyMonkey
+
+------------------------------
+LANGUAGES
+------------------------------
+
+English : Native
+German : Intermediate (B2)
+Italian : Basic (A1)
